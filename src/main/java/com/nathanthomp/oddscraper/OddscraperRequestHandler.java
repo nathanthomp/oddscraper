@@ -1,4 +1,4 @@
-package com.myorg;
+package com.nathanthomp.oddscraper;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;

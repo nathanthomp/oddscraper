@@ -1,13 +1,5 @@
-.classpath.txt
-target
-.classpath
-.project
-.idea
-.settings
 .vscode
-*.iml
+target
 
-# CDK asset staging directory
 .cdk.staging
 cdk.out
-
