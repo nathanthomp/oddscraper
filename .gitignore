@@ -1,5 +1,6 @@
 .vscode
 target
 
-.cdk.staging
-cdk.out
+infrastructure/node_modules
+infrastructure/.cdk.staging
+infrastructure/cdk.out
