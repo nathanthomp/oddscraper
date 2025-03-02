@@ -2,19 +2,17 @@ package com.nathanthomp.oddscraper;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
+import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
+import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
 
-public class OddscraperRequestHandler implements RequestHandler<Request, Response> {
+public class OddscraperRequestHandler
+        implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
 
     @Override
-    public Response handleRequest(Request request, Context context) {
-
-        return new Response("Hello, world!");
+    public APIGatewayProxyResponseEvent handleRequest(APIGatewayProxyRequestEvent request, Context context) {
+        return new APIGatewayProxyResponseEvent()
+                .withStatusCode(200)
+                .withBody("{\"msg\":\"Hello, AWS!\"}")
+                .withIsBase64Encoded(false);
     }
-
-}
-
-record Request(String content) {
-}
-
-record Response(String content) {
 }
