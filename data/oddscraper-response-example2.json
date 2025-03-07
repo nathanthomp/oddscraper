@@ -1,0 +1,48 @@
+{
+    "odds": [
+        {
+            "sport": "ucl",
+            "event": {
+                "team1": "team1_name",
+                "team2": "team2_name"
+            },
+            "sportsbook": "draftkings",
+            "type": "moneyline",
+            "name": "team1_name",
+            "price": -110
+        },
+        {
+            "sport": "ucl",
+            "event": {
+                "team1": "team1_name",
+                "team2": "team2_name"
+            },
+            "sportsbook": "fanduel",
+            "type": "moneyline",
+            "name": "team1_name",
+            "price": -115
+        },
+        {
+            "sport": "ucl",
+            "event": {
+                "team1": "team1_name",
+                "team2": "team2_name"
+            },
+            "sportsbook": "draftkings",
+            "type": "moneyline",
+            "name": "team2_name",
+            "price": 140
+        },
+        {
+            "sport": "ucl",
+            "event": {
+                "team1": "team1_name",
+                "team2": "team2_name"
+            },
+            "sportsbook": "fanduel",
+            "type": "moneyline",
+            "name": "team2_name",
+            "price": 145
+        }
+    ]
+}
