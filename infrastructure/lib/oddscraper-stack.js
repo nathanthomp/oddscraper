@@ -1,7 +1,8 @@
 const { Stack } = require('aws-cdk-lib');
 const lambda = require('aws-cdk-lib/aws-lambda');
 const apigateway = require('aws-cdk-lib/aws-apigateway');
-const secretsmanager = require('aws-cdk-lib/aws-scretsmanager')
+const secretsmanager = require('aws-cdk-lib/aws-secretsmanager')
+const iam = require('aws-cdk-lib/aws-iam')
 
 class OddscraperStack extends Stack {
 

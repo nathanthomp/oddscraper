@@ -5,9 +5,9 @@
     "infrastructure": "bin/oddscraper.js"
   },
   "scripts": {
-    "test": "jest",
-    "build": "node bin/oddscraper.js",
-    "deploy": "cdk deploy",
+    "test": "npm ci && jest",
+    "build": "npm ci && node bin/oddscraper.js",
+    "deploy": "npm ci && cdk deploy",
     "destroy": "cdk destroy"
   },
   "devDependencies": {

@@ -74,6 +74,12 @@
             <version>${aws-lambda-java-events.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>secretsmanager</artifactId>
+            <version>2.16.14</version>
+        </dependency>
+
         <!-- Testing Dependencies -->
         <dependency>
             <groupId>org.mockito</groupId>
