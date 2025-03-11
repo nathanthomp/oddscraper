@@ -1,0 +1,594 @@
+{
+    "Atlético Madrid vs Real Madrid": {
+        "Atlético Madrid": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Atlético Madrid",
+                "price": 159
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Atlético Madrid",
+                "price": 159
+            }
+        ],
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "bovada",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 260
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 260
+            }
+        ],
+        "Real Madrid": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "fanduel",
+                "type": "h2h",
+                "name": "Real Madrid",
+                "price": 170
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "draftkings",
+                "type": "h2h",
+                "name": "Real Madrid",
+                "price": 170
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Real Madrid",
+                "price": 170
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Atlético Madrid",
+                    "team2": "Real Madrid",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Real Madrid",
+                "price": 170
+            }
+        ]
+    },
+    "Liverpool vs Paris Saint Germain": {
+        "Liverpool": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Liverpool",
+                    "team2": "Paris Saint Germain",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Liverpool",
+                "price": 126
+            }
+        ],
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Liverpool",
+                    "team2": "Paris Saint Germain",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 299
+            }
+        ],
+        "Paris Saint Germain": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Liverpool",
+                    "team2": "Paris Saint Germain",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betrivers",
+                "type": "h2h",
+                "name": "Paris Saint Germain",
+                "price": 200
+            }
+        ]
+    },
+    "Barcelona vs Benfica": {
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Barcelona",
+                    "team2": "Benfica",
+                    "startTime": "2025-03-11T17:45:00Z"
+                },
+                "sportsbook": "bovada",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 500
+            }
+        ],
+        "Barcelona": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Barcelona",
+                    "team2": "Benfica",
+                    "startTime": "2025-03-11T17:45:00Z"
+                },
+                "sportsbook": "draftkings",
+                "type": "h2h",
+                "name": "Barcelona",
+                "price": -280
+            }
+        ],
+        "Benfica": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Barcelona",
+                    "team2": "Benfica",
+                    "startTime": "2025-03-11T17:45:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Benfica",
+                "price": 730
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Barcelona",
+                    "team2": "Benfica",
+                    "startTime": "2025-03-11T17:45:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Benfica",
+                "price": 730
+            }
+        ]
+    },
+    "Internazionale Milano vs Feyenoord": {
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Internazionale Milano",
+                    "team2": "Feyenoord",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 460
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Internazionale Milano",
+                    "team2": "Feyenoord",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 460
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Internazionale Milano",
+                    "team2": "Feyenoord",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "bovada",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 460
+            }
+        ],
+        "Internazionale Milano": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Internazionale Milano",
+                    "team2": "Feyenoord",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Internazionale Milano",
+                "price": -287
+            }
+        ],
+        "Feyenoord": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Internazionale Milano",
+                    "team2": "Feyenoord",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "fanduel",
+                "type": "h2h",
+                "name": "Feyenoord",
+                "price": 850
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Internazionale Milano",
+                    "team2": "Feyenoord",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betrivers",
+                "type": "h2h",
+                "name": "Feyenoord",
+                "price": 850
+            }
+        ]
+    },
+    "LOSC Lille vs Borussia Dortmund": {
+        "LOSC Lille": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "LOSC Lille",
+                    "team2": "Borussia Dortmund",
+                    "startTime": "2025-03-12T17:45:00Z"
+                },
+                "sportsbook": "betmgm",
+                "type": "h2h",
+                "name": "LOSC Lille",
+                "price": 170
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "LOSC Lille",
+                    "team2": "Borussia Dortmund",
+                    "startTime": "2025-03-12T17:45:00Z"
+                },
+                "sportsbook": "betrivers",
+                "type": "h2h",
+                "name": "LOSC Lille",
+                "price": 170
+            }
+        ],
+        "Borussia Dortmund": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "LOSC Lille",
+                    "team2": "Borussia Dortmund",
+                    "startTime": "2025-03-12T17:45:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Borussia Dortmund",
+                "price": 168
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "LOSC Lille",
+                    "team2": "Borussia Dortmund",
+                    "startTime": "2025-03-12T17:45:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Borussia Dortmund",
+                "price": 168
+            }
+        ],
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "LOSC Lille",
+                    "team2": "Borussia Dortmund",
+                    "startTime": "2025-03-12T17:45:00Z"
+                },
+                "sportsbook": "bovada",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 250
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "LOSC Lille",
+                    "team2": "Borussia Dortmund",
+                    "startTime": "2025-03-12T17:45:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 250
+            }
+        ]
+    },
+    "Bayer Leverkusen vs Bayern München": {
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Bayer Leverkusen",
+                    "team2": "Bayern München",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "bovada",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 280
+            }
+        ],
+        "Bayer Leverkusen": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Bayer Leverkusen",
+                    "team2": "Bayern München",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Bayer Leverkusen",
+                "price": 199
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Bayer Leverkusen",
+                    "team2": "Bayern München",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Bayer Leverkusen",
+                "price": 199
+            }
+        ],
+        "Bayern München": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Bayer Leverkusen",
+                    "team2": "Bayern München",
+                    "startTime": "2025-03-11T20:00:00Z"
+                },
+                "sportsbook": "betrivers",
+                "type": "h2h",
+                "name": "Bayern München",
+                "price": 138
+            }
+        ]
+    },
+    "Aston Villa vs Club Brugge": {
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Aston Villa",
+                    "team2": "Club Brugge",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "bovada",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 340
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Aston Villa",
+                    "team2": "Club Brugge",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 340
+            }
+        ],
+        "Aston Villa": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Aston Villa",
+                    "team2": "Club Brugge",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Aston Villa",
+                "price": -160
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Aston Villa",
+                    "team2": "Club Brugge",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Aston Villa",
+                "price": -160
+            }
+        ],
+        "Club Brugge": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Aston Villa",
+                    "team2": "Club Brugge",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "fanduel",
+                "type": "h2h",
+                "name": "Club Brugge",
+                "price": 440
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Aston Villa",
+                    "team2": "Club Brugge",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betrivers",
+                "type": "h2h",
+                "name": "Club Brugge",
+                "price": 440
+            }
+        ]
+    },
+    "Arsenal vs PSV Eindhoven": {
+        "Draw": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Arsenal",
+                    "team2": "PSV Eindhoven",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 410
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Arsenal",
+                    "team2": "PSV Eindhoven",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 410
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Arsenal",
+                    "team2": "PSV Eindhoven",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Draw",
+                "price": 410
+            }
+        ],
+        "Arsenal": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Arsenal",
+                    "team2": "PSV Eindhoven",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "type": "h2h",
+                "name": "Arsenal",
+                "price": -240
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Arsenal",
+                    "team2": "PSV Eindhoven",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "type": "h2h",
+                "name": "Arsenal",
+                "price": -240
+            },
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Arsenal",
+                    "team2": "PSV Eindhoven",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betus",
+                "type": "h2h",
+                "name": "Arsenal",
+                "price": -240
+            }
+        ],
+        "PSV Eindhoven": [
+            {
+                "league": "soccer_uefa_champs_league",
+                "event": {
+                    "team1": "Arsenal",
+                    "team2": "PSV Eindhoven",
+                    "startTime": "2025-03-12T20:00:00Z"
+                },
+                "sportsbook": "betrivers",
+                "type": "h2h",
+                "name": "PSV Eindhoven",
+                "price": 750
+            }
+        ]
+    }
+}
