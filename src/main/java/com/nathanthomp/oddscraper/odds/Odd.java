@@ -1,50 +1,40 @@
 package com.nathanthomp.oddscraper.odds;
 
 public class Odd {
-    private String sport;
-    private String team1;
-    private String team2;
+    private String league;
+    private OddEvent event;
     private String sportsbook;
     private String type;
     private String name;
     private int price;
 
-    public Odd(String sport, String team1, String team2, String sportsbook, String type, String name, int price) {
-        this.sport = sport;
-        this.team1 = team1;
-        this.team2 = team2;
+    public Odd(String league, OddEvent event, String sportsbook, String type, String name, int price) {
+        this.league = league;
+        this.event = event;
         this.sportsbook = sportsbook;
         this.type = type;
         this.name = name;
         this.price = price;
     }
 
-    public String getSport() {
-        return sport;
+    public String getLeague() {
+        return this.league;
     }
 
-    public void setSport(String sport) {
-        this.sport = sport;
+    public void setLeague(String league) {
+        this.league = league;
     }
 
-    public String getTeam1() {
-        return team1;
+    public OddEvent getEvent() {
+        return this.event;
     }
 
-    public void setTeam1(String team1) {
-        this.team1 = team1;
-    }
-
-    public String getTeam2() {
-        return team2;
-    }
-
-    public void setTeam2(String team2) {
-        this.team2 = team2;
+    public void setEvent(OddEvent event) {
+        this.event = event;
     }
 
     public String getSportsbook() {
-        return sportsbook;
+        return this.sportsbook;
     }
 
     public void setSportsbook(String sportsbook) {
@@ -52,7 +42,7 @@ public class Odd {
     }
 
     public String getType() {
-        return type;
+        return this.type;
     }
 
     public void setType(String type) {
@@ -60,7 +50,7 @@ public class Odd {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -68,7 +58,7 @@ public class Odd {
     }
 
     public int getPrice() {
-        return price;
+        return this.price;
     }
 
     public void setPrice(int price) {
