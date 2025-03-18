@@ -1,0 +1,1346 @@
+[
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 125
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 220
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 240
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 120
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 210
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 250
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 125
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 215
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 240
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 125
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 210
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 245
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 125
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 205
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 235
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 125
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 205
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 220
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 130
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 207
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 246
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Arsenal",
+            "price": 130
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Real Madrid",
+            "price": 207
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Arsenal",
+            "team2": "Real Madrid",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 246
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -150
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 400
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 290
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -143
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 380
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 295
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -140
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 380
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 270
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -141
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 374
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 284
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -145
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 370
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 280
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -140
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 360
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 265
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -140
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 386
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 282
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Bayern München",
+            "price": -140
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Internazionale Milano",
+            "price": 386
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Bayern München",
+            "team2": "Internazionale Milano",
+            "startTime": "2025-04-08T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 282
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 575
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -245
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 400
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 525
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -210
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 375
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 600
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -230
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 360
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 500
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -235
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 360
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 500
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -238
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 360
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 500
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -225
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 350
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 580
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -225
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 372
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Aston Villa",
+            "price": 580
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Paris Saint Germain",
+            "price": -225
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Paris Saint Germain",
+            "team2": "Aston Villa",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 372
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -315
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 750
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betrivers",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 460
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -275
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 600
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betmgm",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 425
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -290
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 700
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "fanduel",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 440
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -270
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 550
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "draftkings",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 425
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -263
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 606
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betus",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 422
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -275
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 575
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "bovada",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 400
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -266
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 640
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "lowvig",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 431
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Barcelona",
+            "price": -266
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Borussia Dortmund",
+            "price": 640
+        }
+    },
+    {
+        "league": "ODDLEAGUE_UCL",
+        "event": {
+            "team1": "Barcelona",
+            "team2": "Borussia Dortmund",
+            "startTime": "2025-04-09T19: 00: 00Z"
+        },
+        "sportsbook": "betonlineag",
+        "market": "ODDMARKET_MONEYLINE",
+        "result": {
+            "name": "Draw",
+            "price": 431
+        }
+    }
+]
