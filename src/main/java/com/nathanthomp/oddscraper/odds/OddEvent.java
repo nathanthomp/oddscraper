@@ -51,7 +51,12 @@ public class OddEvent {
     }
 
     @Override
+    public int hashCode() {
+        return (int) this.team1.hashCode() * this.team2.hashCode() * this.startTime.hashCode();
+    }
+
+    @Override
     public String toString() {
-        return this.team1 + " vs " + this.team2;
+        return this.team1 + " vs " + this.team2 + " @ " + this.startTime;
     }
 }

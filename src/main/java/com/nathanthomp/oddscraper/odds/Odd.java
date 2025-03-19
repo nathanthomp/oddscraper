@@ -1,68 +1,68 @@
 package com.nathanthomp.oddscraper.odds;
 
 public class Odd {
-    private String league;
+    private OddLeague league;
     private OddEvent event;
     private String sportsbook;
-    private String type;
-    private String name;
+    private OddMarket market;
+    private String result;
     private int price;
 
-    public Odd(String league, OddEvent event, String sportsbook, String type, String name, int price) {
+    public Odd(OddLeague league, OddEvent event, String sportsbook, OddMarket market, String result, int price) {
         this.league = league;
         this.event = event;
         this.sportsbook = sportsbook;
-        this.type = type;
-        this.name = name;
+        this.market = market;
+        this.result = result;
         this.price = price;
     }
 
-    public String getLeague() {
+    public OddLeague getLeague() {
         return this.league;
-    }
-
-    public void setLeague(String league) {
-        this.league = league;
     }
 
     public OddEvent getEvent() {
         return this.event;
     }
 
-    public void setEvent(OddEvent event) {
-        this.event = event;
-    }
-
     public String getSportsbook() {
         return this.sportsbook;
     }
 
-    public void setSportsbook(String sportsbook) {
-        this.sportsbook = sportsbook;
+    public OddMarket getMarket() {
+        return this.market;
     }
 
-    public String getType() {
-        return this.type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public String getResult() {
+        return this.result;
     }
 
     public int getPrice() {
         return this.price;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Odd)) {
+            return false;
+        }
+
+        Odd that = (Odd) obj;
+        if (!(this.event.equals(that.event) && this.result.equals(that.result)
+                && this.price == that.price && this.sportsbook.equals(that.sportsbook))) {
+            return false;
+        }
+
+        return true;
     }
 
+    @Override
+    public int hashCode() {
+        return (int) this.event.hashCode() * this.result.hashCode() * this.price * this.sportsbook.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return this.event + ": " + this.result + " for " + this.price + " on " + this.sportsbook;
+    }
 }
