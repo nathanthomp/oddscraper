@@ -1,0 +1,2450 @@
+{
+    "Illinois Fighting Illini vs Texas Longhorns @ 2025-03-22T01:45:25Z": {
+        "Texas Longhorns": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Illinois Fighting Illini",
+                    "team2": "Texas Longhorns",
+                    "startTime": "2025-03-22T01:45:25Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Texas Longhorns",
+                "price": 215
+            }
+        ],
+        "Illinois Fighting Illini": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Illinois Fighting Illini",
+                    "team2": "Texas Longhorns",
+                    "startTime": "2025-03-22T01:45:25Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Illinois Fighting Illini",
+                "price": -265
+            }
+        ]
+    },
+    "Bradley Braves vs North Alabama Lions @ 2025-03-20T00:00:32Z": {
+        "North Alabama Lions": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Bradley Braves",
+                    "team2": "North Alabama Lions",
+                    "startTime": "2025-03-20T00:00:32Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "North Alabama Lions",
+                "price": 142
+            }
+        ],
+        "Bradley Braves": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Bradley Braves",
+                    "team2": "North Alabama Lions",
+                    "startTime": "2025-03-20T00:00:32Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Bradley Braves",
+                "price": -165
+            }
+        ]
+    },
+    "Duke Blue Devils vs Mt. St. Mary\u0027s Mountaineers @ 2025-03-21T18:40:55Z": {
+        "Mt. St. Mary\u0027s Mountaineers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Duke Blue Devils",
+                    "team2": "Mt. St. Mary\u0027s Mountaineers",
+                    "startTime": "2025-03-21T18:40:55Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Mt. St. Mary\u0027s Mountaineers",
+                "price": 7000
+            }
+        ],
+        "Duke Blue Devils": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Duke Blue Devils",
+                    "team2": "Mt. St. Mary\u0027s Mountaineers",
+                    "startTime": "2025-03-21T18:40:55Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Duke Blue Devils",
+                "price": -100000
+            }
+        ]
+    },
+    "Michigan Wolverines vs UC San Diego Tritons @ 2025-03-21T02:00:00Z": {
+        "Michigan Wolverines": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Michigan Wolverines",
+                    "team2": "UC San Diego Tritons",
+                    "startTime": "2025-03-21T02:00:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Michigan Wolverines",
+                "price": -142
+            }
+        ],
+        "UC San Diego Tritons": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Michigan Wolverines",
+                    "team2": "UC San Diego Tritons",
+                    "startTime": "2025-03-21T02:00:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "UC San Diego Tritons",
+                "price": 129
+            }
+        ]
+    },
+    "Arizona Wildcats vs Akron Zips @ 2025-03-21T23:35:00Z": {
+        "Arizona Wildcats": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Arizona Wildcats",
+                    "team2": "Akron Zips",
+                    "startTime": "2025-03-21T23:35:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Arizona Wildcats",
+                "price": -1100
+            }
+        ],
+        "Akron Zips": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Arizona Wildcats",
+                    "team2": "Akron Zips",
+                    "startTime": "2025-03-21T23:35:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Akron Zips",
+                "price": 750
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Arizona Wildcats",
+                    "team2": "Akron Zips",
+                    "startTime": "2025-03-21T23:35:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Akron Zips",
+                "price": 750
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Arizona Wildcats",
+                    "team2": "Akron Zips",
+                    "startTime": "2025-03-21T23:35:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Akron Zips",
+                "price": 750
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Arizona Wildcats",
+                    "team2": "Akron Zips",
+                    "startTime": "2025-03-21T23:35:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Akron Zips",
+                "price": 750
+            }
+        ]
+    },
+    "Arkansas St Red Wolves vs Saint Louis Billikens @ 2025-03-19T01:00:12Z": {
+        "Saint Louis Billikens": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Arkansas St Red Wolves",
+                    "team2": "Saint Louis Billikens",
+                    "startTime": "2025-03-19T01:00:12Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Saint Louis Billikens",
+                "price": 160
+            }
+        ],
+        "Arkansas St Red Wolves": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Arkansas St Red Wolves",
+                    "team2": "Saint Louis Billikens",
+                    "startTime": "2025-03-19T01:00:12Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Arkansas St Red Wolves",
+                "price": -188
+            }
+        ]
+    },
+    "Florida Atlantic Owls vs Dayton Flyers @ 2025-03-19T23:00:00Z": {
+        "Dayton Flyers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Florida Atlantic Owls",
+                    "team2": "Dayton Flyers",
+                    "startTime": "2025-03-19T23:00:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Dayton Flyers",
+                "price": -118
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Florida Atlantic Owls",
+                    "team2": "Dayton Flyers",
+                    "startTime": "2025-03-19T23:00:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Dayton Flyers",
+                "price": -118
+            }
+        ],
+        "Florida Atlantic Owls": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Florida Atlantic Owls",
+                    "team2": "Dayton Flyers",
+                    "startTime": "2025-03-19T23:00:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Florida Atlantic Owls",
+                "price": -102
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Florida Atlantic Owls",
+                    "team2": "Dayton Flyers",
+                    "startTime": "2025-03-19T23:00:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Florida Atlantic Owls",
+                "price": -102
+            }
+        ]
+    },
+    "George Mason Patriots vs Samford Bulldogs @ 2025-03-19T23:00:39Z": {
+        "Samford Bulldogs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "George Mason Patriots",
+                    "team2": "Samford Bulldogs",
+                    "startTime": "2025-03-19T23:00:39Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Samford Bulldogs",
+                "price": 245
+            }
+        ],
+        "George Mason Patriots": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "George Mason Patriots",
+                    "team2": "Samford Bulldogs",
+                    "startTime": "2025-03-19T23:00:39Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "George Mason Patriots",
+                "price": -285
+            }
+        ]
+    },
+    "SMU Mustangs vs Northern Iowa Panthers @ 2025-03-20T01:00:50Z": {
+        "SMU Mustangs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "SMU Mustangs",
+                    "team2": "Northern Iowa Panthers",
+                    "startTime": "2025-03-20T01:00:50Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "SMU Mustangs",
+                "price": -550
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "SMU Mustangs",
+                    "team2": "Northern Iowa Panthers",
+                    "startTime": "2025-03-20T01:00:50Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "SMU Mustangs",
+                "price": -550
+            }
+        ],
+        "Northern Iowa Panthers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "SMU Mustangs",
+                    "team2": "Northern Iowa Panthers",
+                    "startTime": "2025-03-20T01:00:50Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Northern Iowa Panthers",
+                "price": 420
+            }
+        ]
+    },
+    "San Francisco Dons vs Utah Valley Wolverines @ 2025-03-20T03:00:56Z": {
+        "San Francisco Dons": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San Francisco Dons",
+                    "team2": "Utah Valley Wolverines",
+                    "startTime": "2025-03-20T03:00:56Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "San Francisco Dons",
+                "price": -285
+            }
+        ],
+        "Utah Valley Wolverines": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San Francisco Dons",
+                    "team2": "Utah Valley Wolverines",
+                    "startTime": "2025-03-20T03:00:56Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Utah Valley Wolverines",
+                "price": 240
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San Francisco Dons",
+                    "team2": "Utah Valley Wolverines",
+                    "startTime": "2025-03-20T03:00:56Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Utah Valley Wolverines",
+                "price": 240
+            }
+        ]
+    },
+    "Tennessee Volunteers vs Wofford Terriers @ 2025-03-20T22:50:00Z": {
+        "Tennessee Volunteers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Tennessee Volunteers",
+                    "team2": "Wofford Terriers",
+                    "startTime": "2025-03-20T22:50:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Tennessee Volunteers",
+                "price": -3000
+            }
+        ],
+        "Wofford Terriers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Tennessee Volunteers",
+                    "team2": "Wofford Terriers",
+                    "startTime": "2025-03-20T22:50:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Wofford Terriers",
+                "price": 1500
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Tennessee Volunteers",
+                    "team2": "Wofford Terriers",
+                    "startTime": "2025-03-20T22:50:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Wofford Terriers",
+                "price": 1500
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Tennessee Volunteers",
+                    "team2": "Wofford Terriers",
+                    "startTime": "2025-03-20T22:50:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Wofford Terriers",
+                "price": 1500
+            }
+        ]
+    },
+    "St. Bonaventure Bonnies vs Kent State Golden Flashes @ 2025-03-18T23:00:00Z": {
+        "St. Bonaventure Bonnies": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. Bonaventure Bonnies",
+                    "team2": "Kent State Golden Flashes",
+                    "startTime": "2025-03-18T23:00:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "St. Bonaventure Bonnies",
+                "price": -185
+            }
+        ],
+        "Kent State Golden Flashes": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. Bonaventure Bonnies",
+                    "team2": "Kent State Golden Flashes",
+                    "startTime": "2025-03-18T23:00:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Kent State Golden Flashes",
+                "price": 172
+            }
+        ]
+    },
+    "Texas Tech Red Raiders vs UNC Wilmington Seahawks @ 2025-03-21T02:10:00Z": {
+        "UNC Wilmington Seahawks": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Texas Tech Red Raiders",
+                    "team2": "UNC Wilmington Seahawks",
+                    "startTime": "2025-03-21T02:10:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "UNC Wilmington Seahawks",
+                "price": 1100
+            }
+        ],
+        "Texas Tech Red Raiders": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Texas Tech Red Raiders",
+                    "team2": "UNC Wilmington Seahawks",
+                    "startTime": "2025-03-21T02:10:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Texas Tech Red Raiders",
+                "price": -1900
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Texas Tech Red Raiders",
+                    "team2": "UNC Wilmington Seahawks",
+                    "startTime": "2025-03-21T02:10:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Texas Tech Red Raiders",
+                "price": -1900
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Texas Tech Red Raiders",
+                    "team2": "UNC Wilmington Seahawks",
+                    "startTime": "2025-03-21T02:10:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Texas Tech Red Raiders",
+                "price": -1900
+            }
+        ]
+    },
+    "Marquette Golden Eagles vs New Mexico Lobos @ 2025-03-21T23:25:00Z": {
+        "New Mexico Lobos": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Marquette Golden Eagles",
+                    "team2": "New Mexico Lobos",
+                    "startTime": "2025-03-21T23:25:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "New Mexico Lobos",
+                "price": 155
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Marquette Golden Eagles",
+                    "team2": "New Mexico Lobos",
+                    "startTime": "2025-03-21T23:25:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "New Mexico Lobos",
+                "price": 155
+            }
+        ],
+        "Marquette Golden Eagles": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Marquette Golden Eagles",
+                    "team2": "New Mexico Lobos",
+                    "startTime": "2025-03-21T23:25:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Marquette Golden Eagles",
+                "price": -175
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Marquette Golden Eagles",
+                    "team2": "New Mexico Lobos",
+                    "startTime": "2025-03-21T23:25:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Marquette Golden Eagles",
+                "price": -175
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Marquette Golden Eagles",
+                    "team2": "New Mexico Lobos",
+                    "startTime": "2025-03-21T23:25:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Marquette Golden Eagles",
+                "price": -175
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Marquette Golden Eagles",
+                    "team2": "New Mexico Lobos",
+                    "startTime": "2025-03-21T23:25:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Marquette Golden Eagles",
+                "price": -175
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Marquette Golden Eagles",
+                    "team2": "New Mexico Lobos",
+                    "startTime": "2025-03-21T23:25:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Marquette Golden Eagles",
+                "price": -175
+            }
+        ]
+    },
+    "Gonzaga Bulldogs vs Georgia Bulldogs @ 2025-03-20T20:35:00Z": {
+        "Georgia Bulldogs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Gonzaga Bulldogs",
+                    "team2": "Georgia Bulldogs",
+                    "startTime": "2025-03-20T20:35:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Georgia Bulldogs",
+                "price": 205
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Gonzaga Bulldogs",
+                    "team2": "Georgia Bulldogs",
+                    "startTime": "2025-03-20T20:35:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Georgia Bulldogs",
+                "price": 205
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Gonzaga Bulldogs",
+                    "team2": "Georgia Bulldogs",
+                    "startTime": "2025-03-20T20:35:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Georgia Bulldogs",
+                "price": 205
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Gonzaga Bulldogs",
+                    "team2": "Georgia Bulldogs",
+                    "startTime": "2025-03-20T20:35:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Georgia Bulldogs",
+                "price": 205
+            }
+        ],
+        "Gonzaga Bulldogs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Gonzaga Bulldogs",
+                    "team2": "Georgia Bulldogs",
+                    "startTime": "2025-03-20T20:35:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Gonzaga Bulldogs",
+                "price": -240
+            }
+        ]
+    },
+    "Houston Cougars vs SIU-Edwardsville Cougars @ 2025-03-20T18:00:00Z": {
+        "Houston Cougars": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Houston Cougars",
+                    "team2": "SIU-Edwardsville Cougars",
+                    "startTime": "2025-03-20T18:00:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Houston Cougars",
+                "price": -9000
+            }
+        ],
+        "SIU-Edwardsville Cougars": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Houston Cougars",
+                    "team2": "SIU-Edwardsville Cougars",
+                    "startTime": "2025-03-20T18:00:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "SIU-Edwardsville Cougars",
+                "price": 5500
+            }
+        ]
+    },
+    "Georgia Tech Yellow Jackets vs Jacksonville St Gamecocks @ 2025-03-18T23:00:04Z": {
+        "Georgia Tech Yellow Jackets": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Georgia Tech Yellow Jackets",
+                    "team2": "Jacksonville St Gamecocks",
+                    "startTime": "2025-03-18T23:00:04Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Georgia Tech Yellow Jackets",
+                "price": -230
+            }
+        ],
+        "Jacksonville St Gamecocks": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Georgia Tech Yellow Jackets",
+                    "team2": "Jacksonville St Gamecocks",
+                    "startTime": "2025-03-18T23:00:04Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Jacksonville St Gamecocks",
+                "price": 205
+            }
+        ]
+    },
+    "Missouri Tigers vs Drake Bulldogs @ 2025-03-20T23:35:00Z": {
+        "Drake Bulldogs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Missouri Tigers",
+                    "team2": "Drake Bulldogs",
+                    "startTime": "2025-03-20T23:35:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Drake Bulldogs",
+                "price": 225
+            }
+        ],
+        "Missouri Tigers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Missouri Tigers",
+                    "team2": "Drake Bulldogs",
+                    "startTime": "2025-03-20T23:35:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Missouri Tigers",
+                "price": -255
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Missouri Tigers",
+                    "team2": "Drake Bulldogs",
+                    "startTime": "2025-03-20T23:35:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Missouri Tigers",
+                "price": -255
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Missouri Tigers",
+                    "team2": "Drake Bulldogs",
+                    "startTime": "2025-03-20T23:35:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Missouri Tigers",
+                "price": -255
+            }
+        ]
+    },
+    "Auburn Tigers vs Alabama St Hornets @ 2025-03-20T18:50:37Z": {
+        "Auburn Tigers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Auburn Tigers",
+                    "team2": "Alabama St Hornets",
+                    "startTime": "2025-03-20T18:50:37Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Auburn Tigers",
+                "price": -100000
+            }
+        ],
+        "Alabama St Hornets": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Auburn Tigers",
+                    "team2": "Alabama St Hornets",
+                    "startTime": "2025-03-20T18:50:37Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Alabama St Hornets",
+                "price": 7000
+            }
+        ]
+    },
+    "Kansas Jayhawks vs Arkansas Razorbacks @ 2025-03-20T23:10:00Z": {
+        "Arkansas Razorbacks": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kansas Jayhawks",
+                    "team2": "Arkansas Razorbacks",
+                    "startTime": "2025-03-20T23:10:00Z"
+                },
+                "sportsbook": "betrivers",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Arkansas Razorbacks",
+                "price": 165
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kansas Jayhawks",
+                    "team2": "Arkansas Razorbacks",
+                    "startTime": "2025-03-20T23:10:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Arkansas Razorbacks",
+                "price": 165
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kansas Jayhawks",
+                    "team2": "Arkansas Razorbacks",
+                    "startTime": "2025-03-20T23:10:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Arkansas Razorbacks",
+                "price": 165
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kansas Jayhawks",
+                    "team2": "Arkansas Razorbacks",
+                    "startTime": "2025-03-20T23:10:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Arkansas Razorbacks",
+                "price": 165
+            }
+        ],
+        "Kansas Jayhawks": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kansas Jayhawks",
+                    "team2": "Arkansas Razorbacks",
+                    "startTime": "2025-03-20T23:10:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Kansas Jayhawks",
+                "price": -178
+            }
+        ]
+    },
+    "UCLA Bruins vs Utah State Aggies @ 2025-03-21T01:25:00Z": {
+        "Utah State Aggies": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UCLA Bruins",
+                    "team2": "Utah State Aggies",
+                    "startTime": "2025-03-21T01:25:00Z"
+                },
+                "sportsbook": "betrivers",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Utah State Aggies",
+                "price": 200
+            }
+        ],
+        "UCLA Bruins": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UCLA Bruins",
+                    "team2": "Utah State Aggies",
+                    "startTime": "2025-03-21T01:25:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "UCLA Bruins",
+                "price": -210
+            }
+        ]
+    },
+    "UConn Huskies vs Oklahoma Sooners @ 2025-03-22T01:25:00Z": {
+        "UConn Huskies": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UConn Huskies",
+                    "team2": "Oklahoma Sooners",
+                    "startTime": "2025-03-22T01:25:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "UConn Huskies",
+                "price": -178
+            }
+        ],
+        "Oklahoma Sooners": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UConn Huskies",
+                    "team2": "Oklahoma Sooners",
+                    "startTime": "2025-03-22T01:25:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Oklahoma Sooners",
+                "price": 170
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UConn Huskies",
+                    "team2": "Oklahoma Sooners",
+                    "startTime": "2025-03-22T01:25:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Oklahoma Sooners",
+                "price": 170
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UConn Huskies",
+                    "team2": "Oklahoma Sooners",
+                    "startTime": "2025-03-22T01:25:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Oklahoma Sooners",
+                "price": 170
+            }
+        ]
+    },
+    "St. Francis (PA) Red Flash vs Alabama St Hornets @ 2025-03-18T22:40:42Z": {
+        "St. Francis (PA) Red Flash": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. Francis (PA) Red Flash",
+                    "team2": "Alabama St Hornets",
+                    "startTime": "2025-03-18T22:40:42Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "St. Francis (PA) Red Flash",
+                "price": 161
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. Francis (PA) Red Flash",
+                    "team2": "Alabama St Hornets",
+                    "startTime": "2025-03-18T22:40:42Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "St. Francis (PA) Red Flash",
+                "price": 161
+            }
+        ],
+        "Alabama St Hornets": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. Francis (PA) Red Flash",
+                    "team2": "Alabama St Hornets",
+                    "startTime": "2025-03-18T22:40:42Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Alabama St Hornets",
+                "price": -178
+            }
+        ]
+    },
+    "Saint Mary\u0027s Gaels vs Vanderbilt Commodores @ 2025-03-21T19:15:43Z": {
+        "Vanderbilt Commodores": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Mary\u0027s Gaels",
+                    "team2": "Vanderbilt Commodores",
+                    "startTime": "2025-03-21T19:15:43Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Vanderbilt Commodores",
+                "price": 150
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Mary\u0027s Gaels",
+                    "team2": "Vanderbilt Commodores",
+                    "startTime": "2025-03-21T19:15:43Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Vanderbilt Commodores",
+                "price": 150
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Mary\u0027s Gaels",
+                    "team2": "Vanderbilt Commodores",
+                    "startTime": "2025-03-21T19:15:43Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Vanderbilt Commodores",
+                "price": 150
+            }
+        ],
+        "Saint Mary\u0027s Gaels": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Mary\u0027s Gaels",
+                    "team2": "Vanderbilt Commodores",
+                    "startTime": "2025-03-21T19:15:43Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Saint Mary\u0027s Gaels",
+                "price": -168
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Mary\u0027s Gaels",
+                    "team2": "Vanderbilt Commodores",
+                    "startTime": "2025-03-21T19:15:43Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Saint Mary\u0027s Gaels",
+                "price": -168
+            }
+        ]
+    },
+    "Louisville Cardinals vs Creighton Bluejays @ 2025-03-20T16:15:00Z": {
+        "Louisville Cardinals": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Louisville Cardinals",
+                    "team2": "Creighton Bluejays",
+                    "startTime": "2025-03-20T16:15:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Louisville Cardinals",
+                "price": -140
+            }
+        ],
+        "Creighton Bluejays": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Louisville Cardinals",
+                    "team2": "Creighton Bluejays",
+                    "startTime": "2025-03-20T16:15:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Creighton Bluejays",
+                "price": 125
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Louisville Cardinals",
+                    "team2": "Creighton Bluejays",
+                    "startTime": "2025-03-20T16:15:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Creighton Bluejays",
+                "price": 125
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Louisville Cardinals",
+                    "team2": "Creighton Bluejays",
+                    "startTime": "2025-03-20T16:15:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Creighton Bluejays",
+                "price": 125
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Louisville Cardinals",
+                    "team2": "Creighton Bluejays",
+                    "startTime": "2025-03-20T16:15:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Creighton Bluejays",
+                "price": 125
+            }
+        ]
+    },
+    "UC Irvine Anteaters vs N Colorado Bears @ 2025-03-20T02:00:44Z": {
+        "UC Irvine Anteaters": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UC Irvine Anteaters",
+                    "team2": "N Colorado Bears",
+                    "startTime": "2025-03-20T02:00:44Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "UC Irvine Anteaters",
+                "price": -325
+            }
+        ],
+        "N Colorado Bears": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "UC Irvine Anteaters",
+                    "team2": "N Colorado Bears",
+                    "startTime": "2025-03-20T02:00:44Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "N Colorado Bears",
+                "price": 270
+            }
+        ]
+    },
+    "Purdue Boilermakers vs High Point Panthers @ 2025-03-20T16:40:00Z": {
+        "High Point Panthers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Purdue Boilermakers",
+                    "team2": "High Point Panthers",
+                    "startTime": "2025-03-20T16:40:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "High Point Panthers",
+                "price": 295
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Purdue Boilermakers",
+                    "team2": "High Point Panthers",
+                    "startTime": "2025-03-20T16:40:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "High Point Panthers",
+                "price": 295
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Purdue Boilermakers",
+                    "team2": "High Point Panthers",
+                    "startTime": "2025-03-20T16:40:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "High Point Panthers",
+                "price": 295
+            }
+        ],
+        "Purdue Boilermakers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Purdue Boilermakers",
+                    "team2": "High Point Panthers",
+                    "startTime": "2025-03-20T16:40:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Purdue Boilermakers",
+                "price": -345
+            }
+        ]
+    },
+    "Texas A\u0026M Aggies vs Yale Bulldogs @ 2025-03-20T23:25:00Z": {
+        "Texas A\u0026M Aggies": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Texas A\u0026M Aggies",
+                    "team2": "Yale Bulldogs",
+                    "startTime": "2025-03-20T23:25:00Z"
+                },
+                "sportsbook": "betrivers",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Texas A\u0026M Aggies",
+                "price": -305
+            }
+        ],
+        "Yale Bulldogs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Texas A\u0026M Aggies",
+                    "team2": "Yale Bulldogs",
+                    "startTime": "2025-03-20T23:25:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Yale Bulldogs",
+                "price": 270
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Texas A\u0026M Aggies",
+                    "team2": "Yale Bulldogs",
+                    "startTime": "2025-03-20T23:25:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Yale Bulldogs",
+                "price": 270
+            }
+        ]
+    },
+    "Alabama Crimson Tide vs Robert Morris Colonials @ 2025-03-21T16:40:00Z": {
+        "Robert Morris Colonials": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Alabama Crimson Tide",
+                    "team2": "Robert Morris Colonials",
+                    "startTime": "2025-03-21T16:40:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Robert Morris Colonials",
+                "price": 2000
+            }
+        ],
+        "Alabama Crimson Tide": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Alabama Crimson Tide",
+                    "team2": "Robert Morris Colonials",
+                    "startTime": "2025-03-21T16:40:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Alabama Crimson Tide",
+                "price": -5000
+            }
+        ]
+    },
+    "Wisconsin Badgers vs Montana Grizzlies @ 2025-03-20T17:30:00Z": {
+        "Montana Grizzlies": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Wisconsin Badgers",
+                    "team2": "Montana Grizzlies",
+                    "startTime": "2025-03-20T17:30:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Montana Grizzlies",
+                "price": 1200
+            }
+        ],
+        "Wisconsin Badgers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Wisconsin Badgers",
+                    "team2": "Montana Grizzlies",
+                    "startTime": "2025-03-20T17:30:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Wisconsin Badgers",
+                "price": -2000
+            }
+        ]
+    },
+    "Mississippi St Bulldogs vs Baylor Bears @ 2025-03-21T16:15:00Z": {
+        "Mississippi St Bulldogs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mississippi St Bulldogs",
+                    "team2": "Baylor Bears",
+                    "startTime": "2025-03-21T16:15:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Mississippi St Bulldogs",
+                "price": -120
+            }
+        ],
+        "Baylor Bears": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mississippi St Bulldogs",
+                    "team2": "Baylor Bears",
+                    "startTime": "2025-03-21T16:15:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Baylor Bears",
+                "price": 105
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mississippi St Bulldogs",
+                    "team2": "Baylor Bears",
+                    "startTime": "2025-03-21T16:15:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Baylor Bears",
+                "price": 105
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mississippi St Bulldogs",
+                    "team2": "Baylor Bears",
+                    "startTime": "2025-03-21T16:15:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Baylor Bears",
+                "price": 105
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mississippi St Bulldogs",
+                    "team2": "Baylor Bears",
+                    "startTime": "2025-03-21T16:15:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Baylor Bears",
+                "price": 105
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mississippi St Bulldogs",
+                    "team2": "Baylor Bears",
+                    "startTime": "2025-03-21T16:15:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Baylor Bears",
+                "price": 105
+            }
+        ]
+    },
+    "Duke Blue Devils vs American Eagles @ 2025-03-21T18:50:33Z": {
+        "Duke Blue Devils": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Duke Blue Devils",
+                    "team2": "American Eagles",
+                    "startTime": "2025-03-21T18:50:33Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Duke Blue Devils",
+                "price": -100000
+            }
+        ],
+        "American Eagles": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Duke Blue Devils",
+                    "team2": "American Eagles",
+                    "startTime": "2025-03-21T18:50:33Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "American Eagles",
+                "price": 7000
+            }
+        ]
+    },
+    "Oklahoma St Cowboys vs Wichita St Shockers @ 2025-03-19T01:00:40Z": {
+        "Oklahoma St Cowboys": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Oklahoma St Cowboys",
+                    "team2": "Wichita St Shockers",
+                    "startTime": "2025-03-19T01:00:40Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Oklahoma St Cowboys",
+                "price": -250
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Oklahoma St Cowboys",
+                    "team2": "Wichita St Shockers",
+                    "startTime": "2025-03-19T01:00:40Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Oklahoma St Cowboys",
+                "price": -250
+            }
+        ],
+        "Wichita St Shockers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Oklahoma St Cowboys",
+                    "team2": "Wichita St Shockers",
+                    "startTime": "2025-03-19T01:00:40Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Wichita St Shockers",
+                "price": 205
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Oklahoma St Cowboys",
+                    "team2": "Wichita St Shockers",
+                    "startTime": "2025-03-19T01:00:40Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Wichita St Shockers",
+                "price": 205
+            }
+        ]
+    },
+    "Iowa State Cyclones vs Lipscomb Bisons @ 2025-03-21T17:30:00Z": {
+        "Lipscomb Bisons": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Iowa State Cyclones",
+                    "team2": "Lipscomb Bisons",
+                    "startTime": "2025-03-21T17:30:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Lipscomb Bisons",
+                "price": 850
+            }
+        ],
+        "Iowa State Cyclones": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Iowa State Cyclones",
+                    "team2": "Lipscomb Bisons",
+                    "startTime": "2025-03-21T17:30:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Iowa State Cyclones",
+                "price": -1300
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Iowa State Cyclones",
+                    "team2": "Lipscomb Bisons",
+                    "startTime": "2025-03-21T17:30:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Iowa State Cyclones",
+                "price": -1300
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Iowa State Cyclones",
+                    "team2": "Lipscomb Bisons",
+                    "startTime": "2025-03-21T17:30:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Iowa State Cyclones",
+                "price": -1300
+            }
+        ]
+    },
+    "North Texas Mean Green vs Furman Paladins @ 2025-03-20T00:00:59Z": {
+        "Furman Paladins": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "North Texas Mean Green",
+                    "team2": "Furman Paladins",
+                    "startTime": "2025-03-20T00:00:59Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Furman Paladins",
+                "price": 260
+            }
+        ],
+        "North Texas Mean Green": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "North Texas Mean Green",
+                    "team2": "Furman Paladins",
+                    "startTime": "2025-03-20T00:00:59Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "North Texas Mean Green",
+                "price": -310
+            }
+        ]
+    },
+    "Florida Gators vs Norfolk St Spartans @ 2025-03-21T22:50:00Z": {
+        "Florida Gators": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Florida Gators",
+                    "team2": "Norfolk St Spartans",
+                    "startTime": "2025-03-21T22:50:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Florida Gators",
+                "price": -9000
+            }
+        ],
+        "Norfolk St Spartans": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Florida Gators",
+                    "team2": "Norfolk St Spartans",
+                    "startTime": "2025-03-21T22:50:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Norfolk St Spartans",
+                "price": 5000
+            }
+        ]
+    },
+    "Xavier Musketeers vs Texas Longhorns @ 2025-03-20T01:10:38Z": {
+        "Xavier Musketeers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Xavier Musketeers",
+                    "team2": "Texas Longhorns",
+                    "startTime": "2025-03-20T01:10:38Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Xavier Musketeers",
+                "price": -152
+            }
+        ],
+        "Texas Longhorns": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Xavier Musketeers",
+                    "team2": "Texas Longhorns",
+                    "startTime": "2025-03-20T01:10:38Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Texas Longhorns",
+                "price": 145
+            }
+        ]
+    },
+    "Santa Clara Broncos vs UC Riverside Highlanders @ 2025-03-19T03:00:15Z": {
+        "UC Riverside Highlanders": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Santa Clara Broncos",
+                    "team2": "UC Riverside Highlanders",
+                    "startTime": "2025-03-19T03:00:15Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "UC Riverside Highlanders",
+                "price": 470
+            }
+        ],
+        "Santa Clara Broncos": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Santa Clara Broncos",
+                    "team2": "UC Riverside Highlanders",
+                    "startTime": "2025-03-19T03:00:15Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Santa Clara Broncos",
+                "price": -600
+            }
+        ]
+    },
+    "BYU Cougars vs VCU Rams @ 2025-03-20T20:05:00Z": {
+        "VCU Rams": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "BYU Cougars",
+                    "team2": "VCU Rams",
+                    "startTime": "2025-03-20T20:05:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "VCU Rams",
+                "price": 140
+            }
+        ],
+        "BYU Cougars": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "BYU Cougars",
+                    "team2": "VCU Rams",
+                    "startTime": "2025-03-20T20:05:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "BYU Cougars",
+                "price": -150
+            }
+        ]
+    },
+    "Maryland Terrapins vs Grand Canyon Antelopes @ 2025-03-21T20:35:17Z": {
+        "Grand Canyon Antelopes": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Maryland Terrapins",
+                    "team2": "Grand Canyon Antelopes",
+                    "startTime": "2025-03-21T20:35:17Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Grand Canyon Antelopes",
+                "price": 445
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Maryland Terrapins",
+                    "team2": "Grand Canyon Antelopes",
+                    "startTime": "2025-03-21T20:35:17Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Grand Canyon Antelopes",
+                "price": 445
+            }
+        ],
+        "Maryland Terrapins": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Maryland Terrapins",
+                    "team2": "Grand Canyon Antelopes",
+                    "startTime": "2025-03-21T20:35:17Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Maryland Terrapins",
+                "price": -550
+            }
+        ]
+    },
+    "Stanford Cardinal vs CSU Northridge Matadors @ 2025-03-19T03:00:51Z": {
+        "Stanford Cardinal": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Stanford Cardinal",
+                    "team2": "CSU Northridge Matadors",
+                    "startTime": "2025-03-19T03:00:51Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Stanford Cardinal",
+                "price": -260
+            }
+        ],
+        "CSU Northridge Matadors": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Stanford Cardinal",
+                    "team2": "CSU Northridge Matadors",
+                    "startTime": "2025-03-19T03:00:51Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "CSU Northridge Matadors",
+                "price": 240
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Stanford Cardinal",
+                    "team2": "CSU Northridge Matadors",
+                    "startTime": "2025-03-19T03:00:51Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "CSU Northridge Matadors",
+                "price": 240
+            }
+        ]
+    },
+    "Memphis Tigers vs Colorado St Rams @ 2025-03-21T18:00:00Z": {
+        "Memphis Tigers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Memphis Tigers",
+                    "team2": "Colorado St Rams",
+                    "startTime": "2025-03-21T18:00:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Memphis Tigers",
+                "price": 120
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Memphis Tigers",
+                    "team2": "Colorado St Rams",
+                    "startTime": "2025-03-21T18:00:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Memphis Tigers",
+                "price": 120
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Memphis Tigers",
+                    "team2": "Colorado St Rams",
+                    "startTime": "2025-03-21T18:00:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Memphis Tigers",
+                "price": 120
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Memphis Tigers",
+                    "team2": "Colorado St Rams",
+                    "startTime": "2025-03-21T18:00:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Memphis Tigers",
+                "price": 120
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Memphis Tigers",
+                    "team2": "Colorado St Rams",
+                    "startTime": "2025-03-21T18:00:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Memphis Tigers",
+                "price": 120
+            }
+        ],
+        "Colorado St Rams": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Memphis Tigers",
+                    "team2": "Colorado St Rams",
+                    "startTime": "2025-03-21T18:00:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Colorado St Rams",
+                "price": -128
+            }
+        ]
+    },
+    "Middle Tennessee Blue Raiders vs Chattanooga Mocs @ 2025-03-19T00:00:28Z": {
+        "Middle Tennessee Blue Raiders": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Middle Tennessee Blue Raiders",
+                    "team2": "Chattanooga Mocs",
+                    "startTime": "2025-03-19T00:00:28Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Middle Tennessee Blue Raiders",
+                "price": -137
+            }
+        ],
+        "Chattanooga Mocs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Middle Tennessee Blue Raiders",
+                    "team2": "Chattanooga Mocs",
+                    "startTime": "2025-03-19T00:00:28Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Chattanooga Mocs",
+                "price": 120
+            }
+        ]
+    },
+    "Mt. St. Mary\u0027s Mountaineers vs American Eagles @ 2025-03-19T22:40:08Z": {
+        "Mt. St. Mary\u0027s Mountaineers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mt. St. Mary\u0027s Mountaineers",
+                    "team2": "American Eagles",
+                    "startTime": "2025-03-19T22:40:08Z"
+                },
+                "sportsbook": "betrivers",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Mt. St. Mary\u0027s Mountaineers",
+                "price": 125
+            }
+        ],
+        "American Eagles": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mt. St. Mary\u0027s Mountaineers",
+                    "team2": "American Eagles",
+                    "startTime": "2025-03-19T22:40:08Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "American Eagles",
+                "price": -140
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mt. St. Mary\u0027s Mountaineers",
+                    "team2": "American Eagles",
+                    "startTime": "2025-03-19T22:40:08Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "American Eagles",
+                "price": -140
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Mt. St. Mary\u0027s Mountaineers",
+                    "team2": "American Eagles",
+                    "startTime": "2025-03-19T22:40:08Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "American Eagles",
+                "price": -140
+            }
+        ]
+    },
+    "San Diego St Aztecs vs North Carolina Tar Heels @ 2025-03-19T01:10:00Z": {
+        "North Carolina Tar Heels": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San Diego St Aztecs",
+                    "team2": "North Carolina Tar Heels",
+                    "startTime": "2025-03-19T01:10:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "North Carolina Tar Heels",
+                "price": -178
+            }
+        ],
+        "San Diego St Aztecs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San Diego St Aztecs",
+                    "team2": "North Carolina Tar Heels",
+                    "startTime": "2025-03-19T01:10:00Z"
+                },
+                "sportsbook": "bovada",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "San Diego St Aztecs",
+                "price": 170
+            }
+        ]
+    },
+    "Clemson Tigers vs McNeese Cowboys @ 2025-03-20T19:15:00Z": {
+        "McNeese Cowboys": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Clemson Tigers",
+                    "team2": "McNeese Cowboys",
+                    "startTime": "2025-03-20T19:15:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "McNeese Cowboys",
+                "price": 282
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Clemson Tigers",
+                    "team2": "McNeese Cowboys",
+                    "startTime": "2025-03-20T19:15:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "McNeese Cowboys",
+                "price": 282
+            }
+        ],
+        "Clemson Tigers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Clemson Tigers",
+                    "team2": "McNeese Cowboys",
+                    "startTime": "2025-03-20T19:15:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Clemson Tigers",
+                "price": -320
+            }
+        ]
+    },
+    "Auburn Tigers vs St. Francis (PA) Red Flash @ 2025-03-20T18:50:56Z": {
+        "St. Francis (PA) Red Flash": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Auburn Tigers",
+                    "team2": "St. Francis (PA) Red Flash",
+                    "startTime": "2025-03-20T18:50:56Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "St. Francis (PA) Red Flash",
+                "price": 7000
+            }
+        ],
+        "Auburn Tigers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Auburn Tigers",
+                    "team2": "St. Francis (PA) Red Flash",
+                    "startTime": "2025-03-20T18:50:56Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Auburn Tigers",
+                "price": -100000
+            }
+        ]
+    },
+    "San José St Spartans vs Loyola (Chi) Ramblers @ 2025-03-20T03:00:22Z": {
+        "Loyola (Chi) Ramblers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San José St Spartans",
+                    "team2": "Loyola (Chi) Ramblers",
+                    "startTime": "2025-03-20T03:00:22Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Loyola (Chi) Ramblers",
+                "price": -135
+            }
+        ],
+        "San José St Spartans": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San José St Spartans",
+                    "team2": "Loyola (Chi) Ramblers",
+                    "startTime": "2025-03-20T03:00:22Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "San José St Spartans",
+                "price": 115
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "San José St Spartans",
+                    "team2": "Loyola (Chi) Ramblers",
+                    "startTime": "2025-03-20T03:00:22Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "San José St Spartans",
+                "price": 115
+            }
+        ]
+    },
+    "Michigan St Spartans vs Bryant Bulldogs @ 2025-03-22T02:00:34Z": {
+        "Bryant Bulldogs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Michigan St Spartans",
+                    "team2": "Bryant Bulldogs",
+                    "startTime": "2025-03-22T02:00:34Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Bryant Bulldogs",
+                "price": 1300
+            }
+        ],
+        "Michigan St Spartans": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Michigan St Spartans",
+                    "team2": "Bryant Bulldogs",
+                    "startTime": "2025-03-22T02:00:34Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Michigan St Spartans",
+                "price": -2500
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Michigan St Spartans",
+                    "team2": "Bryant Bulldogs",
+                    "startTime": "2025-03-22T02:00:34Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Michigan St Spartans",
+                "price": -2500
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Michigan St Spartans",
+                    "team2": "Bryant Bulldogs",
+                    "startTime": "2025-03-22T02:00:34Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Michigan St Spartans",
+                "price": -2500
+            }
+        ]
+    },
+    "Oregon Ducks vs Liberty Flames @ 2025-03-22T02:10:00Z": {
+        "Oregon Ducks": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Oregon Ducks",
+                    "team2": "Liberty Flames",
+                    "startTime": "2025-03-22T02:10:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Oregon Ducks",
+                "price": -285
+            }
+        ],
+        "Liberty Flames": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Oregon Ducks",
+                    "team2": "Liberty Flames",
+                    "startTime": "2025-03-22T02:10:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Liberty Flames",
+                "price": 277
+            }
+        ]
+    },
+    "Kentucky Wildcats vs Troy Trojans @ 2025-03-21T23:10:00Z": {
+        "Kentucky Wildcats": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kentucky Wildcats",
+                    "team2": "Troy Trojans",
+                    "startTime": "2025-03-21T23:10:00Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Kentucky Wildcats",
+                "price": -650
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kentucky Wildcats",
+                    "team2": "Troy Trojans",
+                    "startTime": "2025-03-21T23:10:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Kentucky Wildcats",
+                "price": -650
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kentucky Wildcats",
+                    "team2": "Troy Trojans",
+                    "startTime": "2025-03-21T23:10:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Kentucky Wildcats",
+                "price": -650
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kentucky Wildcats",
+                    "team2": "Troy Trojans",
+                    "startTime": "2025-03-21T23:10:00Z"
+                },
+                "sportsbook": "betus",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Kentucky Wildcats",
+                "price": -650
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kentucky Wildcats",
+                    "team2": "Troy Trojans",
+                    "startTime": "2025-03-21T23:10:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Kentucky Wildcats",
+                "price": -650
+            }
+        ],
+        "Troy Trojans": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kentucky Wildcats",
+                    "team2": "Troy Trojans",
+                    "startTime": "2025-03-21T23:10:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Troy Trojans",
+                "price": 500
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Kentucky Wildcats",
+                    "team2": "Troy Trojans",
+                    "startTime": "2025-03-21T23:10:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Troy Trojans",
+                "price": 500
+            }
+        ]
+    },
+    "St. John\u0027s Red Storm vs Omaha Mavericks @ 2025-03-21T01:45:00Z": {
+        "St. John\u0027s Red Storm": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. John\u0027s Red Storm",
+                    "team2": "Omaha Mavericks",
+                    "startTime": "2025-03-21T01:45:00Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "St. John\u0027s Red Storm",
+                "price": -3000
+            }
+        ],
+        "Omaha Mavericks": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. John\u0027s Red Storm",
+                    "team2": "Omaha Mavericks",
+                    "startTime": "2025-03-21T01:45:00Z"
+                },
+                "sportsbook": "betonlineag",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Omaha Mavericks",
+                "price": 1500
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. John\u0027s Red Storm",
+                    "team2": "Omaha Mavericks",
+                    "startTime": "2025-03-21T01:45:00Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Omaha Mavericks",
+                "price": 1500
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "St. John\u0027s Red Storm",
+                    "team2": "Omaha Mavericks",
+                    "startTime": "2025-03-21T01:45:00Z"
+                },
+                "sportsbook": "lowvig",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Omaha Mavericks",
+                "price": 1500
+            }
+        ]
+    },
+    "Illinois Fighting Illini vs Xavier Musketeers @ 2025-03-22T01:45:29Z": {
+        "Xavier Musketeers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Illinois Fighting Illini",
+                    "team2": "Xavier Musketeers",
+                    "startTime": "2025-03-22T01:45:29Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Xavier Musketeers",
+                "price": 188
+            }
+        ],
+        "Illinois Fighting Illini": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Illinois Fighting Illini",
+                    "team2": "Xavier Musketeers",
+                    "startTime": "2025-03-22T01:45:29Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Illinois Fighting Illini",
+                "price": -230
+            }
+        ]
+    },
+    "Ole Miss Rebels vs North Carolina Tar Heels @ 2025-03-21T20:05:49Z": {
+        "Ole Miss Rebels": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Ole Miss Rebels",
+                    "team2": "North Carolina Tar Heels",
+                    "startTime": "2025-03-21T20:05:49Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Ole Miss Rebels",
+                "price": -150
+            }
+        ],
+        "North Carolina Tar Heels": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Ole Miss Rebels",
+                    "team2": "North Carolina Tar Heels",
+                    "startTime": "2025-03-21T20:05:49Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "North Carolina Tar Heels",
+                "price": 126
+            }
+        ]
+    },
+    "Ole Miss Rebels vs San Diego St Aztecs @ 2025-03-21T20:05:57Z": {
+        "Ole Miss Rebels": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Ole Miss Rebels",
+                    "team2": "San Diego St Aztecs",
+                    "startTime": "2025-03-21T20:05:57Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Ole Miss Rebels",
+                "price": -235
+            }
+        ],
+        "San Diego St Aztecs": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Ole Miss Rebels",
+                    "team2": "San Diego St Aztecs",
+                    "startTime": "2025-03-21T20:05:57Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "San Diego St Aztecs",
+                "price": 195
+            }
+        ]
+    },
+    "Saint Joseph\u0027s Hawks vs UAB Blazers @ 2025-03-19T23:00:09Z": {
+        "UAB Blazers": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Joseph\u0027s Hawks",
+                    "team2": "UAB Blazers",
+                    "startTime": "2025-03-19T23:00:09Z"
+                },
+                "sportsbook": "fanduel",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "UAB Blazers",
+                "price": 188
+            }
+        ],
+        "Saint Joseph\u0027s Hawks": [
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Joseph\u0027s Hawks",
+                    "team2": "UAB Blazers",
+                    "startTime": "2025-03-19T23:00:09Z"
+                },
+                "sportsbook": "betmgm",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Saint Joseph\u0027s Hawks",
+                "price": -225
+            },
+            {
+                "league": "ODDLEAGUE_CBB",
+                "event": {
+                    "team1": "Saint Joseph\u0027s Hawks",
+                    "team2": "UAB Blazers",
+                    "startTime": "2025-03-19T23:00:09Z"
+                },
+                "sportsbook": "draftkings",
+                "market": "ODDMARKET_MONEYLINE",
+                "result": "Saint Joseph\u0027s Hawks",
+                "price": -225
+            }
+        ]
+    }
+}
