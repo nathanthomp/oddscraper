@@ -13,19 +13,19 @@ import software.amazon.awssdk.services.secretsmanager.model.GetSecretValueReques
 public class ScraperSecretsManagerClient {
     private static ScraperSecretsManagerClient instance = null;
 
-    public static ScraperSecretsManagerClient getInstance() {
+    public static ScraperSecretsManagerClient getInstance() throws Exception {
         if (instance == null) {
             instance = new ScraperSecretsManagerClient();
         }
         return instance;
     }
 
-    private final String SECRET_NAME = "OddscraperSecretsManager56C-45zSscfjucq3";
+    private final String SECRET_NAME = "OddscraperSecretsManager";
     private final Region SECRET_REGION = Region.of("us-east-2");
 
     private Map<String, String> secrets;
 
-    public ScraperSecretsManagerClient() {
+    public ScraperSecretsManagerClient() throws Exception {
         secrets = new HashMap<String, String>();
 
         SecretsManagerClient secretsClient = SecretsManagerClient.builder()

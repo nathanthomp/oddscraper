@@ -1,6 +1,5 @@
 package com.nathanthomp.oddscraper.odds;
 
-import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -9,7 +8,6 @@ import java.util.Map;
 import java.util.Set;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 public class OddList {
 
@@ -21,22 +19,20 @@ public class OddList {
 
     public void addOdd(Odd odd) {
         /*
-         * 1. If new event: Add event entry
-         * 2. If new result: Get event entry, add result entry
-         * 3. If new odd: Get event entry, get result entry, add odd
+         * New event
          */
-
-        // New event
         if (!rep.containsKey(odd.getEvent())) {
             rep.put(odd.getEvent(), new HashMap<String, Set<Odd>>());
         }
-
-        // If new result
+        /*
+         * New result
+         */
         if (!rep.get(odd.getEvent()).containsKey(odd.getResult())) {
             rep.get(odd.getEvent()).put(odd.getResult(), new HashSet<Odd>());
         }
-
-        // If new odd
+        /*
+         * New Odd
+         */
         if (!rep.get(odd.getEvent()).get(odd.getResult()).contains(odd)) {
             rep.get(odd.getEvent()).get(odd.getResult()).add(odd);
         }
@@ -84,12 +80,78 @@ public class OddList {
         return bestOdds;
     }
 
+    /*
+     * {\n
+     * ____\"identifier\": \"value\"\n
+     * }
+     */
     @Override
     public String toString() {
-        Gson gson = new Gson();
-        Type listType = new TypeToken<Map<OddEvent, Map<String, Set<Odd>>>>() {
-        }.getType();
-        String json = gson.toJson(this.rep, listType);
-        return json;
+        StringBuilder stringBuilder = new StringBuilder();
+
+        // stringBuilder.append(" \"event\": \""
+        // + "Texas Tech Red Raiders vs UNC Wilmington Seahawks @ 2025-03-21T02:10:00Z"
+        // + "\"\n");
+        // stringBuilder.append(" \"result\": \"" + "UNC Wilmington Seahawks" + "\"\n");
+        // stringBuilder.append(" \"price\": \"" + 1100 + "\"\n");
+        // stringBuilder.append(" \"sportsbooks\": \"" + "draftkings" + "\"\n");
+        // stringBuilder.append(" \"result\": \"" + "Texas Tech Red Raiders" + "\"\n");
+        // stringBuilder.append(" \"price\": \"" + -1900 + "\"\n");
+        // stringBuilder.append(" \"sportsbooks\": \"" + "lowvig, betus" + "\"\n");
+        // stringBuilder.append(" \"event\": \""
+        // + "Marquette Golden Eagles vs New Mexico Lobos @ 2025-03-21T23:25:00Z" +
+        // "\"\n");
+        // stringBuilder.append(" \"result\": \"" + "New Mexico Lobos" + "\"\n");
+        // stringBuilder.append(" \"price\": \"" + 155 + "\"\n");
+        // stringBuilder.append(" \"sportsbooks\": \"" + "lowvig, betonlineag" +
+        // "\"\n");
+        // stringBuilder.append(" \"result\": \"" + "Marquette Golden Eagles" + "\"\n");
+        // stringBuilder.append(" \"price\": \"" + -175 + "\"\n");
+        // stringBuilder.append(
+        // " \"sportsbooks\": \"" + "draftkings, lowvig, betus, betonlineag, bovada" +
+        // "\"\n");
+
+        int currentEventIndex = 1;
+        for (Map.Entry<OddEvent, Map<String, Set<Odd>>> eventEntry : this.rep.entrySet()) {
+            stringBuilder.append("        {\n");
+            stringBuilder.append("            \"event\": \"" + eventEntry.getKey() + "\",\n");
+            stringBuilder.append("            \"results\": [\n");
+
+            int currentResultIndex = 1;
+            for (Map.Entry<String, Set<Odd>> resultEntry : eventEntry.getValue().entrySet()) {
+                stringBuilder.append("                {\n");
+                stringBuilder.append("                    \"name\": \"" + resultEntry.getKey() + "\",\n");
+                Set<Odd> resultEntryValue = resultEntry.getValue();
+                stringBuilder.append(
+                        "                    \"price\": \"" + resultEntryValue.iterator().next().getPrice()
+                                + "\",\n");
+                String sportsbooks = "";
+                for (Odd odd : resultEntryValue) {
+                    sportsbooks += odd.getSportsbook() + " ";
+                }
+                stringBuilder.append("                    \"sportsbooks\": \"" + sportsbooks + "\"\n");
+                stringBuilder.append("                }");
+
+                if (currentResultIndex < eventEntry.getValue().size()) {
+                    stringBuilder.append(",\n");
+                } else {
+                    stringBuilder.append("\n");
+                }
+
+                currentResultIndex++;
+            }
+            stringBuilder.append("            ]\n");
+            stringBuilder.append("        }");
+
+            if (currentEventIndex < this.rep.entrySet().size()) {
+                stringBuilder.append(",\n");
+            } else {
+                stringBuilder.append("\n");
+            }
+
+            currentEventIndex++;
+        }
+
+        return stringBuilder.toString();
     }
 }

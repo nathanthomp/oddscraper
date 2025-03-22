@@ -1,10 +1,17 @@
 package com.nathanthomp.oddscraper.scrapers;
 
-import java.util.List;
+import com.nathanthomp.oddscraper.odds.OddLeague;
+import com.nathanthomp.oddscraper.odds.OddList;
+import com.nathanthomp.oddscraper.odds.OddMarket;
 
-import com.nathanthomp.oddscraper.exceptions.OddscraperException;
-import com.nathanthomp.oddscraper.odds.Odd;
+public abstract class Scraper {
+    protected OddLeague league;
+    protected OddMarket market;
 
-public interface Scraper {
-    List<Odd> scrapeOdds(String league) throws OddscraperException;
+    public Scraper(OddLeague league, OddMarket market) {
+        this.league = league;
+        this.market = market;
+    }
+
+    abstract void scrapeOdds(OddList odds) throws Exception;
 }

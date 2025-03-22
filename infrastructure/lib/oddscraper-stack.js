@@ -9,7 +9,9 @@ class OddscraperStack extends Stack {
   constructor(scope, id, props) {
     super(scope, id, props);
 
-    const secret = new secretsmanager.Secret(this, 'OddscraperSecretsManager');
+    const secret = new secretsmanager.Secret(this, 'OddscraperSecretsManager', {
+      secretName: 'OddscraperSecretsManager'
+    });
 
     const fnRole = new iam.Role(this, 'OddscraperLambdaRole', {
       assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com')

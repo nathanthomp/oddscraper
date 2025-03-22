@@ -75,7 +75,8 @@ public class OddListTest {
         }
 
         OddList bestOdds = oddList.getBestOdds();
+        String bestOddsToString = bestOdds.toString();
 
-        assertTrue(!bestOdds.toString().isEmpty());
+        assertTrue(!bestOddsToString.isEmpty());
     }
 }

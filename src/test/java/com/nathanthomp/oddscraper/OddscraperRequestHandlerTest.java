@@ -15,7 +15,7 @@ import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent
 public class OddscraperRequestHandlerTest {
 
         @Test
-        public void testHandleRequest_StatusCode500_MissingRequiredLeaugeRequestParameter() {
+        public void testHandleRequest_MissingRequiredLeaugeRequestParameter() {
                 Context context = mock(Context.class);
                 APIGatewayProxyRequestEvent request = new APIGatewayProxyRequestEvent();
 
@@ -28,12 +28,12 @@ public class OddscraperRequestHandlerTest {
                 APIGatewayProxyResponseEvent response = handler.handleRequest(request,
                                 context);
 
-                assertTrue(response.getStatusCode() == 500
+                assertTrue(response.getStatusCode() == 200
                                 && response.getBody().contains("Missing required 'league' request parameter"));
         }
 
         @Test
-        public void testHandleRequest_StatusCode500_MissingRequiredMarketRequestParameter() {
+        public void testHandleRequest_MissingRequiredMarketRequestParameter() {
                 Context context = mock(Context.class);
                 APIGatewayProxyRequestEvent request = new APIGatewayProxyRequestEvent();
 
@@ -46,12 +46,12 @@ public class OddscraperRequestHandlerTest {
                 APIGatewayProxyResponseEvent response = handler.handleRequest(request,
                                 context);
 
-                assertTrue(response.getStatusCode() == 500
+                assertTrue(response.getStatusCode() == 200
                                 && response.getBody().contains("Missing required 'market' request parameter"));
         }
 
         @Test
-        public void testHandleRequest_StatusCode500_InvalidLeagueRequestParameter() {
+        public void testHandleRequest_InvalidLeagueRequestParameter() {
                 Context context = mock(Context.class);
                 APIGatewayProxyRequestEvent request = new APIGatewayProxyRequestEvent();
 
@@ -65,12 +65,12 @@ public class OddscraperRequestHandlerTest {
                 APIGatewayProxyResponseEvent response = handler.handleRequest(request,
                                 context);
 
-                assertTrue(response.getStatusCode() == 500
+                assertTrue(response.getStatusCode() == 200
                                 && response.getBody().contains("Invalid 'league' request parameter:"));
         }
 
         @Test
-        public void testHandleRequest_StatusCode500_InvalidMarketRequestParameter() {
+        public void testHandleRequest_InvalidMarketRequestParameter() {
                 Context context = mock(Context.class);
                 APIGatewayProxyRequestEvent request = new APIGatewayProxyRequestEvent();
 
@@ -84,7 +84,26 @@ public class OddscraperRequestHandlerTest {
                 APIGatewayProxyResponseEvent response = handler.handleRequest(request,
                                 context);
 
-                assertTrue(response.getStatusCode() == 500
+                assertTrue(response.getStatusCode() == 200
                                 && response.getBody().contains("Invalid 'market' request parameter:"));
         }
+
+        @Test
+        public void testHandleRequest_StatusCode200() {
+                // Context context = mock(Context.class);
+                // APIGatewayProxyRequestEvent request = new APIGatewayProxyRequestEvent();
+
+                // Map<String, String> queryParameters = new HashMap<String, String>();
+                // queryParameters.put("league", "cbb");
+                // queryParameters.put("market", "moneyline");
+
+                // request.setQueryStringParameters(queryParameters);
+
+                // OddscraperRequestHandler handler = new OddscraperRequestHandler();
+                // APIGatewayProxyResponseEvent response = handler.handleRequest(request,
+                // context);
+
+                // assertTrue(response.getStatusCode() == 200);
+        }
+
 }

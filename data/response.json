@@ -1,0 +1,546 @@
+{
+    "league": "ODDLEAGUE_CBB",
+    "market": "ODDMARKET_MONEYLINE",
+    "bestodds": [
+        {
+            "event": "Stanford Cardinal vs Kent State Golden Flashes @ 2025-03-24T01:00:00Z",
+            "results": [
+                {
+                    "name": "Stanford Cardinal",
+                    "price": "-290",
+                    "sportsbooks": "lowvig betonlineag "
+                },
+                {
+                    "name": "Kent State Golden Flashes",
+                    "price": "250",
+                    "sportsbooks": "draftkings "
+                }
+            ]
+        },
+        {
+            "event": "Maryland Terrapins vs Grand Canyon Antelopes @ 2025-03-21T20:35:00Z",
+            "results": [
+                {
+                    "name": "Grand Canyon Antelopes",
+                    "price": "440",
+                    "sportsbooks": "betus "
+                },
+                {
+                    "name": "Maryland Terrapins",
+                    "price": "-550",
+                    "sportsbooks": "lowvig betonlineag "
+                }
+            ]
+        },
+        {
+            "event": "Mississippi St Bulldogs vs Baylor Bears @ 2025-03-21T16:17:48Z",
+            "results": [
+                {
+                    "name": "Mississippi St Bulldogs",
+                    "price": "500",
+                    "sportsbooks": "mybookieag fanduel bovada "
+                },
+                {
+                    "name": "Baylor Bears",
+                    "price": "-625",
+                    "sportsbooks": "betmgm "
+                }
+            ]
+        },
+        {
+            "event": "Wisconsin Badgers vs BYU Cougars @ 2025-03-22T23:45:00Z",
+            "results": [
+                {
+                    "name": "BYU Cougars",
+                    "price": "-102",
+                    "sportsbooks": "betmgm "
+                },
+                {
+                    "name": "Wisconsin Badgers",
+                    "price": "-113",
+                    "sportsbooks": "betrivers "
+                }
+            ]
+        },
+        {
+            "event": "SMU Mustangs vs Oklahoma St Cowboys @ 2025-03-23T19:00:00Z",
+            "results": [
+                {
+                    "name": "Oklahoma St Cowboys",
+                    "price": "390",
+                    "sportsbooks": "lowvig betonlineag "
+                },
+                {
+                    "name": "SMU Mustangs",
+                    "price": "-475",
+                    "sportsbooks": "betmgm "
+                }
+            ]
+        },
+        {
+            "event": "Chattanooga Mocs vs Dayton Flyers @ 2025-03-22T15:30:00Z",
+            "results": [
+                {
+                    "name": "Dayton Flyers",
+                    "price": "-135",
+                    "sportsbooks": "lowvig betonlineag betus "
+                },
+                {
+                    "name": "Chattanooga Mocs",
+                    "price": "120",
+                    "sportsbooks": "betmgm draftkings "
+                }
+            ]
+        },
+        {
+            "event": "Incarnate Word Cardinals vs Manhattan Jaspers @ 2025-03-23T16:00:00Z",
+            "results": [
+                {
+                    "name": "Manhattan Jaspers",
+                    "price": "-120",
+                    "sportsbooks": "betmgm draftkings "
+                },
+                {
+                    "name": "Incarnate Word Cardinals",
+                    "price": "104",
+                    "sportsbooks": "fanduel "
+                }
+            ]
+        },
+        {
+            "event": "UC Irvine Anteaters vs Jacksonville St Gamecocks @ 2025-03-24T01:00:00Z",
+            "results": [
+                {
+                    "name": "UC Irvine Anteaters",
+                    "price": "-300",
+                    "sportsbooks": "betonlineag lowvig betmgm "
+                },
+                {
+                    "name": "Jacksonville St Gamecocks",
+                    "price": "250",
+                    "sportsbooks": "lowvig draftkings betonlineag "
+                }
+            ]
+        },
+        {
+            "event": "Arizona Wildcats vs Akron Zips @ 2025-03-21T23:35:00Z",
+            "results": [
+                {
+                    "name": "Arizona Wildcats",
+                    "price": "-1050",
+                    "sportsbooks": "betonlineag lowvig "
+                },
+                {
+                    "name": "Akron Zips",
+                    "price": "760",
+                    "sportsbooks": "fanduel "
+                }
+            ]
+        },
+        {
+            "event": "North Texas Mean Green vs Arkansas St Red Wolves @ 2025-03-23T23:00:00Z",
+            "results": [
+                {
+                    "name": "Arkansas St Red Wolves",
+                    "price": "150",
+                    "sportsbooks": "betmgm lowvig betonlineag draftkings "
+                },
+                {
+                    "name": "North Texas Mean Green",
+                    "price": "-170",
+                    "sportsbooks": "betonlineag lowvig "
+                }
+            ]
+        },
+        {
+            "event": "San Francisco Dons vs Loyola (Chi) Ramblers @ 2025-03-23T23:00:00Z",
+            "results": [
+                {
+                    "name": "Loyola (Chi) Ramblers",
+                    "price": "230",
+                    "sportsbooks": "betonlineag lowvig "
+                },
+                {
+                    "name": "San Francisco Dons",
+                    "price": "-275",
+                    "sportsbooks": "betonlineag lowvig betmgm "
+                }
+            ]
+        },
+        {
+            "event": "Santa Clara Broncos vs UAB Blazers @ 2025-03-24T01:00:00Z",
+            "results": [
+                {
+                    "name": "Santa Clara Broncos",
+                    "price": "-300",
+                    "sportsbooks": "betonlineag lowvig betmgm "
+                },
+                {
+                    "name": "UAB Blazers",
+                    "price": "250",
+                    "sportsbooks": "draftkings lowvig betonlineag "
+                }
+            ]
+        },
+        {
+            "event": "Auburn Tigers vs Creighton Bluejays @ 2025-03-22T23:10:40Z",
+            "results": [
+                {
+                    "name": "Auburn Tigers",
+                    "price": "-450",
+                    "sportsbooks": "betonlineag betus lowvig betmgm fanduel "
+                },
+                {
+                    "name": "Creighton Bluejays",
+                    "price": "360",
+                    "sportsbooks": "betonlineag lowvig "
+                }
+            ]
+        },
+        {
+            "event": "Florida Gators vs Norfolk St Spartans @ 2025-03-21T22:50:00Z",
+            "results": [
+                {
+                    "name": "Florida Gators",
+                    "price": "-9000",
+                    "sportsbooks": "draftkings "
+                },
+                {
+                    "name": "Norfolk St Spartans",
+                    "price": "5000",
+                    "sportsbooks": "fanduel "
+                }
+            ]
+        },
+        {
+            "event": "Memphis Tigers vs Colorado St Rams @ 2025-03-21T18:00:00Z",
+            "results": [
+                {
+                    "name": "Memphis Tigers",
+                    "price": "100",
+                    "sportsbooks": "betmgm mybookieag fanduel draftkings "
+                },
+                {
+                    "name": "Colorado St Rams",
+                    "price": "-115",
+                    "sportsbooks": "betus betrivers bovada "
+                }
+            ]
+        },
+        {
+            "event": "Alabama Crimson Tide vs Robert Morris Colonials @ 2025-03-21T16:41:18Z",
+            "results": [
+                {
+                    "name": "Robert Morris Colonials",
+                    "price": "1800",
+                    "sportsbooks": "draftkings "
+                },
+                {
+                    "name": "Alabama Crimson Tide",
+                    "price": "-3000",
+                    "sportsbooks": "betmgm "
+                }
+            ]
+        },
+        {
+            "event": "Marquette Golden Eagles vs New Mexico Lobos @ 2025-03-21T23:25:00Z",
+            "results": [
+                {
+                    "name": "New Mexico Lobos",
+                    "price": "160",
+                    "sportsbooks": "lowvig betonlineag bovada "
+                },
+                {
+                    "name": "Marquette Golden Eagles",
+                    "price": "-176",
+                    "sportsbooks": "fanduel "
+                }
+            ]
+        },
+        {
+            "event": "Illinois Fighting Illini vs Xavier Musketeers @ 2025-03-22T01:45:00Z",
+            "results": [
+                {
+                    "name": "Xavier Musketeers",
+                    "price": "160",
+                    "sportsbooks": "betonlineag lowvig bovada "
+                },
+                {
+                    "name": "Illinois Fighting Illini",
+                    "price": "-180",
+                    "sportsbooks": "betus betonlineag lowvig "
+                }
+            ]
+        },
+        {
+            "event": "Michigan St Spartans vs Bryant Bulldogs @ 2025-03-22T02:00:00Z",
+            "results": [
+                {
+                    "name": "Bryant Bulldogs",
+                    "price": "1236",
+                    "sportsbooks": "mybookieag "
+                },
+                {
+                    "name": "Michigan St Spartans",
+                    "price": "-2200",
+                    "sportsbooks": "bovada "
+                }
+            ]
+        },
+        {
+            "event": "Purdue Boilermakers vs McNeese Cowboys @ 2025-03-22T16:10:00Z",
+            "results": [
+                {
+                    "name": "McNeese Cowboys",
+                    "price": "203",
+                    "sportsbooks": "betus "
+                },
+                {
+                    "name": "Purdue Boilermakers",
+                    "price": "-230",
+                    "sportsbooks": "fanduel "
+                }
+            ]
+        },
+        {
+            "event": "George Mason Patriots vs Bradley Braves @ 2025-03-22T18:00:00Z",
+            "results": [
+                {
+                    "name": "George Mason Patriots",
+                    "price": "-250",
+                    "sportsbooks": "betus lowvig betonlineag betmgm "
+                },
+                {
+                    "name": "Bradley Braves",
+                    "price": "210",
+                    "sportsbooks": "betonlineag betus lowvig draftkings "
+                }
+            ]
+        },
+        {
+            "event": "Ole Miss Rebels vs North Carolina Tar Heels @ 2025-03-21T20:05:00Z",
+            "results": [
+                {
+                    "name": "Ole Miss Rebels",
+                    "price": "110",
+                    "sportsbooks": "bovada betrivers "
+                },
+                {
+                    "name": "North Carolina Tar Heels",
+                    "price": "-125",
+                    "sportsbooks": "betus draftkings "
+                }
+            ]
+        },
+        {
+            "event": "Tennessee Volunteers vs UCLA Bruins @ 2025-03-23T01:40:00Z",
+            "results": [
+                {
+                    "name": "Tennessee Volunteers",
+                    "price": "-195",
+                    "sportsbooks": "bovada betrivers "
+                },
+                {
+                    "name": "UCLA Bruins",
+                    "price": "175",
+                    "sportsbooks": "lowvig betonlineag betus "
+                }
+            ]
+        },
+        {
+            "event": "Duke Blue Devils vs Mt. St. Mary's Mountaineers @ 2025-03-21T18:50:00Z",
+            "results": [
+                {
+                    "name": "Mt. St. Mary's Mountaineers",
+                    "price": "8000",
+                    "sportsbooks": "fanduel "
+                },
+                {
+                    "name": "Duke Blue Devils",
+                    "price": "-10000",
+                    "sportsbooks": "betmgm betrivers "
+                }
+            ]
+        },
+        {
+            "event": "Texas A&M Aggies vs Michigan Wolverines @ 2025-03-22T21:15:00Z",
+            "results": [
+                {
+                    "name": "Texas A&M Aggies",
+                    "price": "-142",
+                    "sportsbooks": "betonlineag lowvig betus "
+                },
+                {
+                    "name": "Michigan Wolverines",
+                    "price": "135",
+                    "sportsbooks": "bovada "
+                }
+            ]
+        },
+        {
+            "event": "Iowa State Cyclones vs Lipscomb Bisons @ 2025-03-21T17:30:58Z",
+            "results": [
+                {
+                    "name": "Lipscomb Bisons",
+                    "price": "1800",
+                    "sportsbooks": "draftkings "
+                },
+                {
+                    "name": "Iowa State Cyclones",
+                    "price": "-5000",
+                    "sportsbooks": "mybookieag "
+                }
+            ]
+        },
+        {
+            "event": "Texas Tech Red Raiders vs Drake Bulldogs @ 2025-03-22T22:10:00Z",
+            "results": [
+                {
+                    "name": "Texas Tech Red Raiders",
+                    "price": "-300",
+                    "sportsbooks": "fanduel "
+                },
+                {
+                    "name": "Drake Bulldogs",
+                    "price": "265",
+                    "sportsbooks": "betonlineag lowvig "
+                }
+            ]
+        },
+        {
+            "event": "Houston Cougars vs Gonzaga Bulldogs @ 2025-03-23T00:40:37Z",
+            "results": [
+                {
+                    "name": "Houston Cougars",
+                    "price": "-205",
+                    "sportsbooks": "fanduel "
+                },
+                {
+                    "name": "Gonzaga Bulldogs",
+                    "price": "195",
+                    "sportsbooks": "bovada "
+                }
+            ]
+        },
+        {
+            "event": "Presbyterian Blue Hose vs Illinois St Redbirds @ 2025-03-23T23:00:00Z",
+            "results": [
+                {
+                    "name": "Illinois St Redbirds",
+                    "price": "-230",
+                    "sportsbooks": "fanduel "
+                },
+                {
+                    "name": "Presbyterian Blue Hose",
+                    "price": "200",
+                    "sportsbooks": "betonlineag lowvig draftkings betmgm "
+                }
+            ]
+        },
+        {
+            "event": "UConn Huskies vs Oklahoma Sooners @ 2025-03-22T01:25:00Z",
+            "results": [
+                {
+                    "name": "UConn Huskies",
+                    "price": "-250",
+                    "sportsbooks": "fanduel "
+                },
+                {
+                    "name": "Oklahoma Sooners",
+                    "price": "225",
+                    "sportsbooks": "betus bovada "
+                }
+            ]
+        },
+        {
+            "event": "Army Knights vs Elon Phoenix @ 2025-03-23T18:30:00Z",
+            "results": [
+                {
+                    "name": "Army Knights",
+                    "price": "240",
+                    "sportsbooks": "draftkings "
+                },
+                {
+                    "name": "Elon Phoenix",
+                    "price": "-280",
+                    "sportsbooks": "lowvig betonlineag "
+                }
+            ]
+        },
+        {
+            "event": "Saint Mary's Gaels vs Vanderbilt Commodores @ 2025-03-21T19:15:00Z",
+            "results": [
+                {
+                    "name": "Vanderbilt Commodores",
+                    "price": "180",
+                    "sportsbooks": "bovada betus "
+                },
+                {
+                    "name": "Saint Mary's Gaels",
+                    "price": "-182",
+                    "sportsbooks": "fanduel "
+                }
+            ]
+        },
+        {
+            "event": "Oregon Ducks vs Liberty Flames @ 2025-03-22T02:10:00Z",
+            "results": [
+                {
+                    "name": "Oregon Ducks",
+                    "price": "-285",
+                    "sportsbooks": "fanduel "
+                },
+                {
+                    "name": "Liberty Flames",
+                    "price": "253",
+                    "sportsbooks": "betus "
+                }
+            ]
+        },
+        {
+            "event": "Northern Arizona Lumberjacks vs Queens University Royals @ 2025-03-23T21:00:00Z",
+            "results": [
+                {
+                    "name": "Northern Arizona Lumberjacks",
+                    "price": "130",
+                    "sportsbooks": "draftkings "
+                },
+                {
+                    "name": "Queens University Royals",
+                    "price": "-152",
+                    "sportsbooks": "fanduel "
+                }
+            ]
+        },
+        {
+            "event": "St. John's Red Storm vs Arkansas Razorbacks @ 2025-03-22T18:40:00Z",
+            "results": [
+                {
+                    "name": "Arkansas Razorbacks",
+                    "price": "250",
+                    "sportsbooks": "bovada "
+                },
+                {
+                    "name": "St. John's Red Storm",
+                    "price": "-286",
+                    "sportsbooks": "betrivers "
+                }
+            ]
+        },
+        {
+            "event": "Kentucky Wildcats vs Troy Trojans @ 2025-03-21T23:10:00Z",
+            "results": [
+                {
+                    "name": "Kentucky Wildcats",
+                    "price": "-650",
+                    "sportsbooks": "fanduel "
+                },
+                {
+                    "name": "Troy Trojans",
+                    "price": "550",
+                    "sportsbooks": "lowvig betonlineag "
+                }
+            ]
+        }
+    ]
+}
