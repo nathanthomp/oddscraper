@@ -1,6 +1,7 @@
 .vscode
 target
+secrets.json
 
-infrastructure/node_modules
-infrastructure/.cdk.staging
-infrastructure/cdk.out
+infrastructure/.terraform
+infrastructure/.terraform.lock.hcl
+infrastructure/terraform.tfstate
