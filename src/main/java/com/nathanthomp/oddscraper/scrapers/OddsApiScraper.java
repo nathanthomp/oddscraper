@@ -27,13 +27,13 @@ public class OddsApiScraper extends Scraper {
         super(league, market);
 
         switch (league) {
-            case ODDLEAGUE_UCL:
+            case UCL:
                 this.oddsApiLeague = "soccer_uefa_champs_league";
                 break;
-            case ODDLEAGUE_NHL:
+            case NHL:
                 this.oddsApiLeague = "icehockey_nhl";
                 break;
-            case ODDLEAGUE_CBB:
+            case CBB:
                 this.oddsApiLeague = "basketball_ncaab";
                 break;
             default:
@@ -41,13 +41,13 @@ public class OddsApiScraper extends Scraper {
         }
 
         switch (market) {
-            case ODDMARKET_MONEYLINE:
+            case MONEYLINE:
                 this.oddsApiMarket = "h2h";
                 break;
-            case ODDMARKET_SPREAD:
+            case SPREAD:
                 this.oddsApiMarket = "spreads";
                 break;
-            case ODDMARKET_TOTAL:
+            case TOTAL:
                 this.oddsApiMarket = "totals";
                 break;
             default:

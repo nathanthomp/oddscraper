@@ -17,14 +17,20 @@ public record OddscraperRequest(String league, String market) {
     private static Map<String, OddMarket> validMarkets;
 
     static {
+        /*
+         * Mapping of valid leagues to OddLeague.
+         */
         validLeagues = Map.ofEntries(
-                Map.entry("ucl", OddLeague.ODDLEAGUE_UCL),
-                Map.entry("nhl", OddLeague.ODDLEAGUE_NHL),
-                Map.entry("cbb", OddLeague.ODDLEAGUE_CBB));
+                Map.entry("ucl", OddLeague.UCL),
+                Map.entry("nhl", OddLeague.NHL),
+                Map.entry("cbb", OddLeague.CBB));
+        /*
+         * Mapping of valid markets to OddMarket.
+         */
         validMarkets = Map.ofEntries(
-                Map.entry("moneyline", OddMarket.ODDMARKET_MONEYLINE),
-                Map.entry("spread", OddMarket.ODDMARKET_MONEYLINE),
-                Map.entry("total", OddMarket.ODDMARKET_MONEYLINE));
+                Map.entry("moneyline", OddMarket.MONEYLINE),
+                Map.entry("spread", OddMarket.SPREAD),
+                Map.entry("total", OddMarket.TOTAL));
     }
 
     public static OddLeague getOddLeague(String league) {
