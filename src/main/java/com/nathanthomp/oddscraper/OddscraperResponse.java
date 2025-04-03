@@ -1,44 +1,64 @@
 package com.nathanthomp.oddscraper;
 
-import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
+import java.util.Map;
+import java.util.Set;
+
+import com.google.gson.Gson;
+import com.nathanthomp.oddscraper.odds.Odd;
+import com.nathanthomp.oddscraper.odds.OddEvent;
 import com.nathanthomp.oddscraper.odds.OddLeague;
 import com.nathanthomp.oddscraper.odds.OddList;
 import com.nathanthomp.oddscraper.odds.OddMarket;
 
+/*
+ * Outgoing response from AWS lambda, returning a list of scraped odds.
+ */
 public class OddscraperResponse {
-
+    /*
+     * Computed league and market values from request.
+     */
     private OddLeague league;
     private OddMarket market;
-    private OddList bestOdds;
-
-    public OddscraperResponse(OddLeague league, OddMarket market, OddList bestOdds) {
-        this.league = league;
-        this.market = market;
-        this.bestOdds = bestOdds;
-    }
-
-    public APIGatewayProxyResponseEvent getSuccessResponse() {
-        String body = "{\n    \"league\": \"" + this.league + "\",\n    \"market\": \"" + this.market
-                + "\",\n    \"bestodds\": []\n}";
-
-        return new APIGatewayProxyResponseEvent()
-                .withStatusCode(200)
-                .withBody(body)
-                .withIsBase64Encoded(false);
-    }
-
-    public static APIGatewayProxyResponseEvent getErrorResponse(String message) {
-        return new APIGatewayProxyResponseEvent()
-                .withStatusCode(200)
-                .withBody("{\n    \"error\": \"" + message + "\"\n}")
-                .withIsBase64Encoded(false);
-    }
+    /*
+     * Status and status message.
+     */
+    private String status;
+    private String message;
 
     /*
-     * Eventually, this needs to be json
+     * JSON representation of scraped odds.
      */
-    @Override
-    public String toString() {
-        return bestOdds.toString();
+    private Map<OddEvent, Map<String, Set<Odd>>> odds;
+
+    public OddscraperResponse(OddLeague league, OddMarket market, String status, OddList odds) {
+        this(league, market, status, "", odds);
+    }
+
+    public OddscraperResponse(OddLeague league, OddMarket market, String status, String message, OddList odds) {
+        this.league = league;
+        this.market = market;
+        this.status = status;
+        this.message = message;
+        this.odds = odds.getRep();
+    }
+
+    public OddLeague getLeague() {
+        return this.league;
+    }
+
+    public OddMarket getMarket() {
+        return this.market;
+    }
+
+    public String getStatus() {
+        return this.status;
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public Map<OddEvent, Map<String, Set<Odd>>> getOdds() {
+        return this.odds;
     }
 }
