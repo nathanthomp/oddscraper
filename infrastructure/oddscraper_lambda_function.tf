@@ -5,6 +5,8 @@ resource "aws_lambda_function" "oddscraper_lambda_function" {
   runtime = "java21"
   handler = "com.nathanthomp.oddscraper.OddscraperRequestHandler::handleRequest"
   filename = "../target/oddscraper-1.0.0-SNAPSHOT.jar" # TODO: Dynamically get version
+
+  timeout = 60
 }
 
 resource "aws_iam_role" "oddscraper_lambda_function_role" {
