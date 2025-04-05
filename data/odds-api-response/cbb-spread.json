@@ -1,0 +1,127 @@
+[
+    {
+        "id": "455894225c69e67241a4bd855b69abec",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-04-03T23:00:00Z",
+        "home_team": "Cincinnati Bearcats",
+        "away_team": "UCF Knights",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-04-03T02:55:57Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-04-03T02:55:57Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bearcats",
+                                "price": -105,
+                                "point": -6.5
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": -115,
+                                "point": 6.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betonlineag",
+                "title": "BetOnline.ag",
+                "last_update": "2025-04-03T02:57:37Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-04-03T02:57:37Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bearcats",
+                                "price": -107,
+                                "point": -6
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": -113,
+                                "point": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "lowvig",
+                "title": "LowVig.ag",
+                "last_update": "2025-04-03T02:57:37Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-04-03T02:57:37Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bearcats",
+                                "price": -103,
+                                "point": -6
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": -109,
+                                "point": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betus",
+                "title": "BetUS",
+                "last_update": "2025-04-03T02:57:38Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-04-03T02:57:38Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bearcats",
+                                "price": -110,
+                                "point": -6
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": -110,
+                                "point": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-04-03T02:57:37Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-04-03T02:57:37Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bearcats",
+                                "price": -118,
+                                "point": -5.5
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": -102,
+                                "point": 5.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

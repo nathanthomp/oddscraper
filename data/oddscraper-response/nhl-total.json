@@ -1,0 +1,95 @@
+[
+    {
+        "team1": "Toronto Maple Leafs",
+        "team2": "Columbus Blue Jackets",
+        "startTime": "2025-04-05T23:00:00Z",
+        "outcomes": [
+            {
+                "result": "Over",
+                "market": "Total",
+                "points": 6.5,
+                "odds": [
+                    {
+                        "sportsbook": "betrivers",
+                        "price": -106
+                    },
+                    {
+                        "sportsbook": "draftkings",
+                        "price": -110
+                    },
+                    {
+                        "sportsbook": "mybookieag",
+                        "price": -110
+                    },
+                    {
+                        "sportsbook": "fanduel",
+                        "price": -102
+                    },
+                    {
+                        "sportsbook": "lowvig",
+                        "price": -110
+                    },
+                    {
+                        "sportsbook": "betonlineag",
+                        "price": -110
+                    },
+                    {
+                        "sportsbook": "betus",
+                        "price": -110
+                    },
+                    {
+                        "sportsbook": "bovada",
+                        "price": -115
+                    },
+                    {
+                        "sportsbook": "betmgm",
+                        "price": -110
+                    }
+                ]
+            },
+            {
+                "result": "Under",
+                "market": "Total",
+                "points": 6.5,
+                "odds": [
+                    {
+                        "sportsbook": "betrivers",
+                        "price": -115
+                    },
+                    {
+                        "sportsbook": "draftkings",
+                        "price": -110
+                    },
+                    {
+                        "sportsbook": "mybookieag",
+                        "price": -115
+                    },
+                    {
+                        "sportsbook": "fanduel",
+                        "price": -120
+                    },
+                    {
+                        "sportsbook": "lowvig",
+                        "price": -106
+                    },
+                    {
+                        "sportsbook": "betonlineag",
+                        "price": -106
+                    },
+                    {
+                        "sportsbook": "betus",
+                        "price": -110
+                    },
+                    {
+                        "sportsbook": "bovada",
+                        "price": -105
+                    },
+                    {
+                        "sportsbook": "betmgm",
+                        "price": -110
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "4cd4edd8112e30bb5cc04e2f8ac890c2",
+    "sport_key": "soccer_uefa_champs_league",
+    "sport_title": "UEFA Champions League",
+    "commence_time": "2025-03-04T20:00:00Z",
+    "home_team": "Real Madrid",
+    "away_team": "Atlético Madrid",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-03-04T02:04:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-03-04T02:04:03Z",
+            "outcomes": [
+              {
+                "name": "Atlético Madrid",
+                "price": 330
+              },
+              {
+                "name": "Real Madrid",
+                "price": -115
+              },
+              {
+                "name": "Draw",
+                "price": 250
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-03-04T02:04:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-03-04T02:04:03Z",
+            "outcomes": [
+              {
+                "name": "Atlético Madrid",
+                "price": 320
+              },
+              {
+                "name": "Real Madrid",
+                "price": -114
+              },
+              {
+                "name": "Draw",
+                "price": 255
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-03-04T02:04:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-03-04T02:04:02Z",
+            "outcomes": [
+              {
+                "name": "Atlético Madrid",
+                "price": 300
+              },
+              {
+                "name": "Real Madrid",
+                "price": -110
+              },
+              {
+                "name": "Draw",
+                "price": 260
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-03-04T02:04:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-03-04T02:04:03Z",
+            "outcomes": [
+              {
+                "name": "Atlético Madrid",
+                "price": 310
+              },
+              {
+                "name": "Real Madrid",
+                "price": -115
+              },
+              {
+                "name": "Draw",
+                "price": 250
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-03-04T02:04:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-03-04T02:04:02Z",
+            "outcomes": [
+              {
+                "name": "Atlético Madrid",
+                "price": 320
+              },
+              {
+                "name": "Real Madrid",
+                "price": -115
+              },
+              {
+                "name": "Draw",
+                "price": 255
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-03-04T02:04:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-03-04T02:04:02Z",
+            "outcomes": [
+              {
+                "name": "Atlético Madrid",
+                "price": 330
+              },
+              {
+                "name": "Real Madrid",
+                "price": -111
+              },
+              {
+                "name": "Draw",
+                "price": 262
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-03-04T02:04:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-03-04T02:04:03Z",
+            "outcomes": [
+              {
+                "name": "Atlético Madrid",
+                "price": 330
+              },
+              {
+                "name": "Real Madrid",
+                "price": -111
+              },
+              {
+                "name": "Draw",
+                "price": 262
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

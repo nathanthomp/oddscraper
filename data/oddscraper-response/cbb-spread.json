@@ -1,0 +1,91 @@
+[
+    {
+        "team1": "Cincinnati Bearcats",
+        "team2": "UCF Knights",
+        "startTime": "2025-04-03T23:00:00Z",
+        "outcomes": [
+            {
+                "result": "Cincinnati Bearcats",
+                "market": "SPREAD",
+                "points": -6.5,
+                "odds": [
+                    {
+                        "sportsbook": "fanduel",
+                        "price": -105
+                    }
+                ]
+            },
+            {
+                "result": "UCF Knights",
+                "market": "SPREAD",
+                "points": 6.5,
+                "odds": [
+                    {
+                        "sportsbook": "fanduel",
+                        "price": -115
+                    }
+                ]
+            },
+            {
+                "result": "Cincinnati Bearcats",
+                "market": "SPREAD",
+                "points": -6,
+                "odds": [
+                    {
+                        "sportsbook": "betonlineag",
+                        "price": -107
+                    },
+                    {
+                        "sportsbook": "lowvig",
+                        "price": -103
+                    },
+                    {
+                        "sportsbook": "betus",
+                        "price": -110
+                    }
+                ]
+            },
+            {
+                "result": "UCF Knights",
+                "market": "SPREAD",
+                "points": 6,
+                "odds": [
+                    {
+                        "sportsbook": "betonlineag",
+                        "price": -113
+                    },
+                    {
+                        "sportsbook": "lowvig",
+                        "price": -109
+                    },
+                    {
+                        "sportsbook": "betus",
+                        "price": -110
+                    }
+                ]
+            },
+            {
+                "result": "Cincinnati Bearcats",
+                "market": "SPREAD",
+                "points": -5.5,
+                "odds": [
+                    {
+                        "sportsbook": "draftkings",
+                        "price": -118
+                    }
+                ]
+            },
+            {
+                "result": "UCF Knights",
+                "market": "SPREAD",
+                "points": 5.5,
+                "odds": [
+                    {
+                        "sportsbook": "draftkings",
+                        "price": -102
+                    }
+                ]
+            }
+        ]
+    }
+]

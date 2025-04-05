@@ -1,0 +1,114 @@
+[
+  {
+    "team1": "Real Madrid",
+    "team2": "Atlético Madrid",
+    "startTime": "2025-03-04T20:00:00Z",
+    "outcomes": [
+      {
+        "result": "Atlético Madrid",
+        "market": "MONEYLINE",
+        "points": 0,
+        "odds": [
+          {
+            "sportsbook": "fanduel",
+            "price": 330
+          },
+          {
+            "sportsbook": "betrivers",
+            "price": 320
+          },
+          {
+            "sportsbook": "bovada",
+            "price": 300
+          },
+          {
+            "sportsbook": "betmgm",
+            "price": 310
+          },
+          {
+            "sportsbook": "draftkings",
+            "price": 320
+          },
+          {
+            "sportsbook": "betonlineag",
+            "price": 330
+          },
+          {
+            "sportsbook": "lowvig",
+            "price": 330
+          }
+        ]
+      },
+      {
+        "result": "Real Madrid",
+        "market": "MONEYLINE",
+        "points": 0,
+        "odds": [
+          {
+            "sportsbook": "fanduel",
+            "price": -115
+          },
+          {
+            "sportsbook": "betrivers",
+            "price": -114
+          },
+          {
+            "sportsbook": "bovada",
+            "price": -110
+          },
+          {
+            "sportsbook": "betmgm",
+            "price": -115
+          },
+          {
+            "sportsbook": "draftkings",
+            "price": -115
+          },
+          {
+            "sportsbook": "betonlineag",
+            "price": -111
+          },
+          {
+            "sportsbook": "lowvig",
+            "price": -111
+          }
+        ]
+      },
+      {
+        "result": "Draw",
+        "market": "MONEYLINE",
+        "points": 0,
+        "odds": [
+          {
+            "sportsbook": "fanduel",
+            "price": 250
+          },
+          {
+            "sportsbook": "betrivers",
+            "price": 255
+          },
+          {
+            "sportsbook": "bovada",
+            "price": 260
+          },
+          {
+            "sportsbook": "betmgm",
+            "price": 250
+          },
+          {
+            "sportsbook": "draftkings",
+            "price": 255
+          },
+          {
+            "sportsbook": "betonlineag",
+            "price": 262
+          },
+          {
+            "sportsbook": "lowvig",
+            "price": 262
+          }
+        ]
+      }
+    ]
+  }
+]
