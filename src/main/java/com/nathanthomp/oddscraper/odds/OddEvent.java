@@ -1,38 +1,45 @@
 package com.nathanthomp.oddscraper.odds;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class OddEvent {
+    /*
+     * Participants
+     */
     private String team1;
     private String team2;
+    /*
+     * Time
+     */
     private String startTime;
+
+    /*
+     * Outcomes
+     */
+    private Set<OddOutcome> outcomes;
 
     public OddEvent(String team1, String team2, String startTime) {
         this.team1 = team1;
         this.team2 = team2;
         this.startTime = startTime;
+        this.outcomes = new HashSet<OddOutcome>();
     }
 
     public String getTeam1() {
         return this.team1;
     }
 
-    public void setTeam1(String team1) {
-        this.team1 = team1;
-    }
-
     public String getTeam2() {
         return this.team2;
-    }
-
-    public void setTeam2(String team2) {
-        this.team2 = team2;
     }
 
     public String getStartTime() {
         return this.startTime;
     }
 
-    public void setStartTime(String startTime) {
-        this.startTime = startTime;
+    public Set<OddOutcome> getOutcomes() {
+        return this.outcomes;
     }
 
     @Override
@@ -52,7 +59,7 @@ public class OddEvent {
 
     @Override
     public int hashCode() {
-        return (int) this.team1.hashCode() * this.team2.hashCode() * this.startTime.hashCode();
+        return this.team1.hashCode() * this.team2.hashCode() * this.startTime.hashCode();
     }
 
     @Override
