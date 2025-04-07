@@ -1,4 +1,4 @@
-package com.nathanthomp.oddscraper.scrapers;
+package com.nathanthomp.oddscraper.scraper;
 
 import java.net.URI;
 import java.net.http.HttpClient;

@@ -1,14 +1,10 @@
 package com.nathanthomp.oddscraper;
 
-import java.util.Map;
 import java.util.Set;
 
-import com.google.gson.Gson;
-import com.nathanthomp.oddscraper.odds.Odd;
-import com.nathanthomp.oddscraper.odds.OddEvent;
-import com.nathanthomp.oddscraper.odds.OddLeague;
-import com.nathanthomp.oddscraper.odds.OddList;
-import com.nathanthomp.oddscraper.odds.OddMarket;
+import com.nathanthomp.oddscraper.odd.OddEvent;
+import com.nathanthomp.oddscraper.odd.OddLeague;
+import com.nathanthomp.oddscraper.odd.OddMarket;
 
 /*
  * Outgoing response from AWS lambda, returning a list of scraped odds.
@@ -24,22 +20,21 @@ public class OddscraperResponse {
      */
     private String status;
     private String message;
-
     /*
      * JSON representation of scraped odds.
      */
-    private Map<OddEvent, Map<String, Set<Odd>>> odds;
+    private Set<OddEvent> events;
 
-    public OddscraperResponse(OddLeague league, OddMarket market, String status, OddList odds) {
-        this(league, market, status, "", odds);
+    public OddscraperResponse(OddLeague league, OddMarket market, String status, Set<OddEvent> events) {
+        this(league, market, status, "", events);
     }
 
-    public OddscraperResponse(OddLeague league, OddMarket market, String status, String message, OddList odds) {
+    public OddscraperResponse(OddLeague league, OddMarket market, String status, String message, Set<OddEvent> events) {
         this.league = league;
         this.market = market;
         this.status = status;
         this.message = message;
-        this.odds = odds.getRep();
+        this.events = events;
     }
 
     public OddLeague getLeague() {
@@ -58,7 +53,7 @@ public class OddscraperResponse {
         return this.message;
     }
 
-    public Map<OddEvent, Map<String, Set<Odd>>> getOdds() {
-        return this.odds;
+    public Set<OddEvent> getEvents() {
+        return this.events;
     }
 }

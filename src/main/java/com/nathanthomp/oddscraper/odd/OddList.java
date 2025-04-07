@@ -10,32 +10,43 @@ import java.util.Set;
 import com.google.gson.Gson;
 
 public class OddList {
+    /*
+     * New
+     */
+    private Set<OddEvent> events;
 
+    /*
+     * Old
+     */
     private Map<OddEvent, Map<String, Set<Odd>>> rep;
 
     public OddList() {
         this.rep = new HashMap<OddEvent, Map<String, Set<Odd>>>();
     }
 
+    public void addOdds(Set<OddEvent> events) {
+        // TODO: implementation
+    }
+
     public void addOdd(Odd odd) {
-        /*
-         * New event
-         */
-        if (!rep.containsKey(odd.getEvent())) {
-            rep.put(odd.getEvent(), new HashMap<String, Set<Odd>>());
-        }
-        /*
-         * New result
-         */
-        if (!rep.get(odd.getEvent()).containsKey(odd.getResult())) {
-            rep.get(odd.getEvent()).put(odd.getResult(), new HashSet<Odd>());
-        }
-        /*
-         * New Odd
-         */
-        if (!rep.get(odd.getEvent()).get(odd.getResult()).contains(odd)) {
-            rep.get(odd.getEvent()).get(odd.getResult()).add(odd);
-        }
+        // /*
+        // * New event
+        // */
+        // if (!rep.containsKey(odd.getEvent())) {
+        // rep.put(odd.getEvent(), new HashMap<String, Set<Odd>>());
+        // }
+        // /*
+        // * New result
+        // */
+        // if (!rep.get(odd.getEvent()).containsKey(odd.getResult())) {
+        // rep.get(odd.getEvent()).put(odd.getResult(), new HashSet<Odd>());
+        // }
+        // /*
+        // * New Odd
+        // */
+        // if (!rep.get(odd.getEvent()).get(odd.getResult()).contains(odd)) {
+        // rep.get(odd.getEvent()).get(odd.getResult()).add(odd);
+        // }
     }
 
     public List<Odd> getOdds() {

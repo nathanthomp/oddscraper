@@ -3,8 +3,8 @@ package com.nathanthomp.oddscraper;
 import java.util.Map;
 import java.util.Objects;
 
-import com.nathanthomp.oddscraper.odds.OddLeague;
-import com.nathanthomp.oddscraper.odds.OddMarket;
+import com.nathanthomp.oddscraper.odd.OddLeague;
+import com.nathanthomp.oddscraper.odd.OddMarket;
 
 /*
  * Incoming request to AWS lambda, requiring non null and valid values for league and market.
@@ -13,8 +13,8 @@ public record OddscraperRequest(String league, String market) {
     /*
      * List of valid league and market values.
      */
-    private static Map<String, OddLeague> validLeagues;
-    private static Map<String, OddMarket> validMarkets;
+    private final static Map<String, OddLeague> validLeagues;
+    private final static Map<String, OddMarket> validMarkets;
 
     static {
         /*

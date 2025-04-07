@@ -1,7 +1,9 @@
 package com.nathanthomp.oddscraper.scrapers;
 
+import java.util.Set;
+
+import com.nathanthomp.oddscraper.odds.OddEvent;
 import com.nathanthomp.oddscraper.odds.OddLeague;
-import com.nathanthomp.oddscraper.odds.OddList;
 import com.nathanthomp.oddscraper.odds.OddMarket;
 
 public abstract class Scraper {
@@ -13,5 +15,5 @@ public abstract class Scraper {
         this.market = market;
     }
 
-    abstract void scrapeOdds(OddList odds) throws Exception;
+    abstract Set<OddEvent> scrapeOdds() throws Exception;
 }

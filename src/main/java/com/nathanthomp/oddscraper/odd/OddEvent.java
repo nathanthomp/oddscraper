@@ -1,4 +1,4 @@
-package com.nathanthomp.oddscraper.odds;
+package com.nathanthomp.oddscraper.odd;
 
 import java.util.HashSet;
 import java.util.Set;
