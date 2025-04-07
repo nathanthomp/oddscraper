@@ -1,10 +1,10 @@
-package com.nathanthomp.oddscraper.scrapers;
+package com.nathanthomp.oddscraper.scraper;
 
 import java.util.Set;
 
-import com.nathanthomp.oddscraper.odds.OddEvent;
-import com.nathanthomp.oddscraper.odds.OddLeague;
-import com.nathanthomp.oddscraper.odds.OddMarket;
+import com.nathanthomp.oddscraper.odd.OddEvent;
+import com.nathanthomp.oddscraper.odd.OddLeague;
+import com.nathanthomp.oddscraper.odd.OddMarket;
 
 public abstract class Scraper {
     protected OddLeague league;

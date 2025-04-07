@@ -1,4 +1,4 @@
-package com.nathanthomp.oddscraper.odds;
+package com.nathanthomp.oddscraper.odd;
 
 public enum OddLeague {
     UCL,

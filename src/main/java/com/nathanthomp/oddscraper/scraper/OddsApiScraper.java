@@ -1,4 +1,4 @@
-package com.nathanthomp.oddscraper.scrapers;
+package com.nathanthomp.oddscraper.scraper;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,11 +13,11 @@ import java.util.Set;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
-import com.nathanthomp.oddscraper.odds.Odd;
-import com.nathanthomp.oddscraper.odds.OddEvent;
-import com.nathanthomp.oddscraper.odds.OddLeague;
-import com.nathanthomp.oddscraper.odds.OddMarket;
-import com.nathanthomp.oddscraper.odds.OddOutcome;
+import com.nathanthomp.oddscraper.odd.Odd;
+import com.nathanthomp.oddscraper.odd.OddEvent;
+import com.nathanthomp.oddscraper.odd.OddLeague;
+import com.nathanthomp.oddscraper.odd.OddMarket;
+import com.nathanthomp.oddscraper.odd.OddOutcome;
 
 public class OddsApiScraper extends Scraper {
     /*
