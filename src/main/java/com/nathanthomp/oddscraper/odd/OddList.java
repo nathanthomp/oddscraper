@@ -9,6 +9,9 @@ import java.util.Set;
 
 import com.google.gson.Gson;
 
+/*
+ * Object to provide functionality of adding events, outcomes, and odds to a list of events. Inserting to this list of events should be n(1) for each level.
+ */
 public class OddList {
     /*
      * New
@@ -25,7 +28,10 @@ public class OddList {
     }
 
     public void addOdds(Set<OddEvent> events) {
-        // TODO: implementation
+        for (OddEvent event : events) {
+            events.add(event);
+
+        }
     }
 
     public void addOdd(Odd odd) {

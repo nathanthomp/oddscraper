@@ -8,12 +8,10 @@ import com.nathanthomp.oddscraper.odd.OddMarket;
 
 public abstract class Scraper {
     protected OddLeague league;
-    protected OddMarket market;
 
-    public Scraper(OddLeague league, OddMarket market) {
+    public Scraper(OddLeague league) {
         this.league = league;
-        this.market = market;
     }
 
-    abstract Set<OddEvent> scrapeOdds() throws Exception;
+    abstract Set<OddEvent> scrapeOdds(OddMarket market) throws Exception;
 }

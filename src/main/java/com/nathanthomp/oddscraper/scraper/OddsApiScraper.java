@@ -1,11 +1,8 @@
 package com.nathanthomp.oddscraper.scraper;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.net.http.HttpResponse;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -25,71 +22,73 @@ public class OddsApiScraper extends Scraper {
      */
     private static final String ODDS_API_HOST = "https://api.the-odds-api.com";
     /*
-     * Converted OddLeague and OddMarket values
+     * Valid OddLeagues and their matching OddsApi leagues
+     */
+    private static final Map<OddLeague, String> oddsApiLeagues = Map.ofEntries(
+            Map.entry(OddLeague.UCL, "soccer_uefa_champs_league"),
+            Map.entry(OddLeague.NHL, "icehockey_nhl"),
+            Map.entry(OddLeague.CBB, "basketball_ncaab"),
+            Map.entry(OddLeague.MASTERS, "golf_masters_tournament_winner"));
+    /*
+     * Valid OddMarkets and their matching OddsApi markets
+     */
+    private static final Map<OddMarket, String> oddsApiMarkets = Map.ofEntries(
+            Map.entry(OddMarket.MONEYLINE, "h2h"),
+            Map.entry(OddMarket.SPREAD, "spreads"),
+            Map.entry(OddMarket.TOTAL, "totals"),
+            Map.entry(OddMarket.OUTRIGHT, "outrights"));
+    /*
+     * Converted OddLeague value
      */
     private String oddsApiLeague;
-    private String oddsApiMarket;
 
-    public OddsApiScraper(OddLeague league, OddMarket market) throws Exception {
-        super(league, market);
-
-        switch (league) {
-            case UCL:
-                this.oddsApiLeague = "soccer_uefa_champs_league";
-                break;
-            case NHL:
-                this.oddsApiLeague = "icehockey_nhl";
-                break;
-            case CBB:
-                this.oddsApiLeague = "basketball_ncaab";
-                break;
-            default:
-                throw new Exception("Cannot convert OddLeague to OddsApiLeague");
+    public OddsApiScraper(OddLeague league) throws Exception {
+        super(league);
+        if (!oddsApiLeagues.containsKey(league)) {
+            throw new Exception("Cannot convert OddLeague to OddsApiLeague");
         }
-
-        switch (market) {
-            case MONEYLINE:
-                this.oddsApiMarket = "h2h";
-                break;
-            case SPREAD:
-                this.oddsApiMarket = "spreads";
-                break;
-            case TOTAL:
-                this.oddsApiMarket = "totals";
-                break;
-            default:
-                throw new Exception("Cannot convert OddMarket to OddsApiMarket");
-        }
+        this.oddsApiLeague = oddsApiLeagues.get(league);
     }
 
-    public Set<OddEvent> scrapeOdds() throws Exception {
+    public Set<OddEvent> scrapeOdds(OddMarket market) throws Exception {
         /*
-         * Get odds api endpoint
+         * Get OddsApi data
+         */
+        String data = getOddsApiData(market);
+        /*
+         * Parse OddsApi data
+         */
+        Set<OddEvent> events = parseOddsApiData(data, market);
+        return events;
+    }
+
+    private String getOddsApiData(OddMarket market) throws Exception {
+        /*
+         * Get OddsApi market
+         */
+        if (!oddsApiMarkets.containsKey(market)) {
+            throw new Exception("Cannot convert OddMarket to OddsApiMarket");
+        }
+        String oddsApiMarket = oddsApiMarkets.get(market);
+        /*
+         * Get OddsApi endpoint
          */
         String oddsApiKey = getOddsApiKey();
-        String endpoint = getOddsApiOddsEndpoint(oddsApiKey);
+        String endpoint = getOddsApiOddsEndpoint(oddsApiKey, oddsApiMarket);
         /*
-         * Call odds api
+         * Call OddsApi
          */
         ScraperHttpClient httpClient = ScraperHttpClient.getInstance();
         HttpResponse<String> response = httpClient.getHttpResponse(endpoint);
         /*
-         * Get odds api response
+         * Get OddsApi response
          * Potential status codes: 401, 422, 429, 500
          */
         int statusCode = response.statusCode();
         if (statusCode != 200) {
             throw new Exception("Could not get OddsApi data: " + response.body());
         }
-        /*
-         * Convert array of OddApiEvent to Set of OddEvent
-         */
-        String body = response.body();
-        Gson gson = new Gson();
-        OddsApiEvent[] oddsApiEvents = gson.fromJson(body, OddsApiEvent[].class);
-        Set<OddEvent> events = convert(oddsApiEvents, market);
-
-        return events;
+        return response.body();
     }
 
     private String getOddsApiKey() throws Exception {
@@ -126,19 +125,29 @@ public class OddsApiScraper extends Scraper {
         return oddsApiKey;
     }
 
-    private String getOddsApiOddsEndpoint(String oddsApiKey) {
+    private String getOddsApiOddsEndpoint(String oddsApiKey, String oddsApiMarket) {
         return ODDS_API_HOST + "/v4/sports/" + this.oddsApiLeague + "/odds?apiKey=" + oddsApiKey
-                + "&regions=us&markets=" + this.oddsApiMarket + "&dateFormat=iso&oddsFormat=american";
+                + "&regions=us&markets=" + oddsApiMarket + "&dateFormat=iso&oddsFormat=american";
     }
 
-    private static Set<OddEvent> convert(OddsApiEvent[] oddsApiEvents, OddMarket market) {
+    private Set<OddEvent> parseOddsApiData(String data, OddMarket market) {
+        Gson gson = new Gson();
+        /*
+         * Convert array of OddApiEvent to Set of OddEvent
+         */
+        OddsApiEvent[] oddsApiEvents = gson.fromJson(data, OddsApiEvent[].class);
+        return convert(oddsApiEvents, super.league, market);
+    }
+
+    private static Set<OddEvent> convert(OddsApiEvent[] oddsApiEvents, OddLeague league, OddMarket market) {
         Set<OddEvent> events = new HashSet<OddEvent>();
 
         for (OddsApiEvent oddsApiEvent : oddsApiEvents) {
             /*
              * Get metadata including participants and time
              */
-            OddEvent event = new OddEvent(oddsApiEvent.homeTeam, oddsApiEvent.awayTeam, oddsApiEvent.commenceTime);
+            OddEvent event = new OddEvent(league, oddsApiEvent.homeTeam, oddsApiEvent.awayTeam,
+                    oddsApiEvent.commenceTime);
 
             for (OddsApiEvent.Bookmaker oddsApiBookmaker : oddsApiEvent.bookmakers) {
                 /*
@@ -150,7 +159,7 @@ public class OddsApiScraper extends Scraper {
                          * Get metadata including name (and point if spread/total)
                          */
                         OddOutcome outcome;
-                        if (market == OddMarket.MONEYLINE) {
+                        if (market == OddMarket.MONEYLINE || market == OddMarket.OUTRIGHT) {
                             outcome = new OddOutcome(oddsApiOutcome.name, market);
                         } else {
                             outcome = new OddOutcome(oddsApiOutcome.name, market, oddsApiOutcome.point);
@@ -183,45 +192,6 @@ public class OddsApiScraper extends Scraper {
 
             events.add(event);
         }
-
-        return events;
-    }
-
-    private OddsApiEvent[] parseOddsApiData(String data) throws Exception {
-        Gson gson = new Gson();
-        OddsApiEvent[] events = gson.fromJson(data, OddsApiEvent[].class);
-
-        return events;
-    }
-
-    public void writeOddsApiResponseBodyToFile(String odds) {
-        LocalDateTime time = LocalDateTime.now();
-        String path = "data/odds-api-response-" + super.league + "-" + super.market + "-" + time.getMonthValue()
-                + "-" + time.getDayOfMonth() + "-" + time.getYear() + ".json";
-        try {
-            FileWriter fileWriter = new FileWriter(path);
-            fileWriter.write(odds);
-            fileWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    /*
-     * For testing
-     */
-    public static Set<OddEvent> scrapeOddsFromFile(String path, OddLeague league, OddMarket market) throws Exception {
-        /*
-         * Get json data from file
-         */
-        String data = new String(Files.readAllBytes(Paths.get(path)));
-        Gson gson = new Gson();
-
-        /*
-         * Convert array of OddApiEvent to Set of OddEvent
-         */
-        OddsApiEvent[] oddsApiEvents = gson.fromJson(data, OddsApiEvent[].class);
-        Set<OddEvent> events = convert(oddsApiEvents, market);
 
         return events;
     }
@@ -283,5 +253,24 @@ public class OddsApiScraper extends Scraper {
                 }
             }
         }
+    }
+
+    /*
+     * For testing
+     */
+    public static Set<OddEvent> scrapeOddsFromFile(String path, OddLeague league, OddMarket market) throws Exception {
+        /*
+         * Get json data from file
+         */
+        String data = new String(Files.readAllBytes(Paths.get(path)));
+        Gson gson = new Gson();
+
+        /*
+         * Convert array of OddApiEvent to Set of OddEvent
+         */
+        OddsApiEvent[] oddsApiEvents = gson.fromJson(data, OddsApiEvent[].class);
+        Set<OddEvent> events = convert(oddsApiEvents, league, market);
+
+        return events;
     }
 }

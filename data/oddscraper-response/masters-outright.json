@@ -1,0 +1,39 @@
+[
+    {
+        "team1": null,
+        "team2": null,
+        "startTime": "2025-04-10T12:00:00Z",
+        "outcomes": [
+            {
+                "result": "Scottie Scheffler",
+                "market": "OUTRIGHT",
+                "points": 0,
+                "odds": [
+                    {
+                        "sportsbook": "betmgm",
+                        "price": 450
+                    },
+                    {
+                        "sportsbook": "betonlineag",
+                        "price": 525
+                    }
+                ]
+            },
+            {
+                "result": "Rory McIlroy",
+                "market": "OUTRIGHT",
+                "points": 0,
+                "odds": [
+                    {
+                        "sportsbook": "betmgm",
+                        "price": 650
+                    },
+                    {
+                        "sportsbook": "betonlineag",
+                        "price": 650
+                    }
+                ]
+            }
+        ]
+    }
+]

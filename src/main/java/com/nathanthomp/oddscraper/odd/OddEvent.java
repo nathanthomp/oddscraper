@@ -5,6 +5,10 @@ import java.util.Set;
 
 public class OddEvent {
     /*
+     * League of event.
+     */
+    OddLeague league;
+    /*
      * Participants
      */
     private String team1;
@@ -13,17 +17,32 @@ public class OddEvent {
      * Time
      */
     private String startTime;
-
     /*
      * Outcomes
      */
     private Set<OddOutcome> outcomes;
 
-    public OddEvent(String team1, String team2, String startTime) {
-        this.team1 = team1;
-        this.team2 = team2;
+    public OddEvent(OddLeague league, String team1, String team2, String startTime) {
+        this.league = league;
+
+        if (team1 == null) {
+            this.team1 = "";
+        } else {
+            this.team1 = team1;
+        }
+
+        if (team2 == null) {
+            this.team2 = "";
+        } else {
+            this.team2 = team2;
+        }
+
         this.startTime = startTime;
         this.outcomes = new HashSet<OddOutcome>();
+    }
+
+    public OddLeague getLeague() {
+        return this.league;
     }
 
     public String getTeam1() {
@@ -49,7 +68,7 @@ public class OddEvent {
         }
 
         OddEvent that = (OddEvent) obj;
-        if (!(this.team1.equals(that.team1) && this.team2.equals(that.team2)
+        if (!(this.league == that.league && this.team1.equals(that.team1) && this.team2.equals(that.team2)
                 && this.startTime.equals(that.startTime))) {
             return false;
         }
@@ -59,7 +78,7 @@ public class OddEvent {
 
     @Override
     public int hashCode() {
-        return this.team1.hashCode() * this.team2.hashCode() * this.startTime.hashCode();
+        return this.league.hashCode() * this.team1.hashCode() * this.team2.hashCode() * this.startTime.hashCode();
     }
 
     @Override

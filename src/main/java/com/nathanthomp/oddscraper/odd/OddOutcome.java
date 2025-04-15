@@ -6,11 +6,11 @@ import java.util.Set;
 
 public class OddOutcome {
     /*
-     * Choice of participant
+     * Choice of participant (team, over/under, player)
      */
     private String result;
     /*
-     * Type of outcome (moneyline, spread, or total)
+     * Outcome market
      */
     private OddMarket market;
     /*
@@ -31,8 +31,8 @@ public class OddOutcome {
     public OddOutcome(String result, OddMarket market, double points) {
         this.result = result;
         this.market = market;
-        this.odds = new HashSet<Odd>();
         this.points = points;
+        this.odds = new HashSet<Odd>();
     }
 
     public String getResult() {
@@ -73,7 +73,7 @@ public class OddOutcome {
 
     @Override
     public int hashCode() {
-        if (this.market == OddMarket.MONEYLINE) {
+        if (this.market == OddMarket.MONEYLINE || this.market == OddMarket.OUTRIGHT) {
             return this.result.hashCode() * this.market.hashCode();
         } else {
             return this.result.hashCode() * this.market.hashCode() * Objects.hash(this.points);
@@ -82,7 +82,7 @@ public class OddOutcome {
 
     @Override
     public String toString() {
-        if (this.market == OddMarket.MONEYLINE) {
+        if (this.market == OddMarket.MONEYLINE || this.market == OddMarket.OUTRIGHT) {
             return this.result + " " + this.market;
         } else {
             return this.result + " " + this.points + " " + this.market;

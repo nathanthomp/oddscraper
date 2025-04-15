@@ -7,7 +7,6 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.nathanthomp.oddscraper.odd.OddEvent;
 import com.nathanthomp.oddscraper.odd.OddLeague;
-import com.nathanthomp.oddscraper.odd.OddList;
 import com.nathanthomp.oddscraper.odd.OddMarket;
 import com.nathanthomp.oddscraper.scraper.OddsApiScraper;
 
@@ -24,14 +23,12 @@ public class OddscraperRequestHandler implements RequestHandler<OddscraperReques
          * Get odds for league and market.
          */
         Set<OddEvent> events = new HashSet<OddEvent>();
-
-        OddList oddList = new OddList();
         try {
-            /*
-             * TODO: market should be at the scrape odds level
-             */
-            events = new OddsApiScraper(league, market).scrapeOdds();
-
+            // OddsApiScraper oddsApiScraper = new OddsApiScraper(league);
+            // events = oddsApiScraper.scrapeOdds(market);
+            // events = oddsApiScraper.scrapeOdds(OddMarket.SPREAD);
+            // events = oddsApiScraper.scrapeOdds(OddMarket.TOTAL);
+            // oddList.addOdds(events);
             /*
              * Add more scrapers here
              */
@@ -39,8 +36,8 @@ public class OddscraperRequestHandler implements RequestHandler<OddscraperReques
             /*
              * Testing
              */
-            // events = OddsApiScraper.scrapeOddsFromFile(OddscraperRequestHandler.path,
-            // league, market);
+            events = OddsApiScraper.scrapeOddsFromFile(OddscraperRequestHandler.path,
+                    league, market);
 
         } catch (Exception e) {
             return new OddscraperResponse(league, market, "failure", e.getMessage(), events);
@@ -55,7 +52,7 @@ public class OddscraperRequestHandler implements RequestHandler<OddscraperReques
     private static String path = "";
 
     public static void main(String[] args) {
-        Set<OddEvent> events = testTotal();
+        Set<OddEvent> events = testOutright();
         /*
          * How to find middle bets?
          * 1. Get outcomes for totals
@@ -82,6 +79,14 @@ public class OddscraperRequestHandler implements RequestHandler<OddscraperReques
         OddscraperRequestHandler.path = "data/odds-api-response/nhl-total.json";
         OddscraperRequestHandler handler = new OddscraperRequestHandler();
         OddscraperRequest request = new OddscraperRequest("nhl", "total");
+        OddscraperResponse response = handler.handleRequest(request, null);
+        return response.getEvents();
+    }
+
+    private static Set<OddEvent> testOutright() {
+        OddscraperRequestHandler.path = "data/odds-api-response/masters-outright.json";
+        OddscraperRequestHandler handler = new OddscraperRequestHandler();
+        OddscraperRequest request = new OddscraperRequest("masters", "outright");
         OddscraperResponse response = handler.handleRequest(request, null);
         return response.getEvents();
     }
