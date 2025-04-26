@@ -1,4 +1,4 @@
-package com.nathanthomp.oddscraper;
+package com.nathanthomp.oddscraper.handler;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,43 +7,75 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.nathanthomp.oddscraper.odd.OddEvent;
 import com.nathanthomp.oddscraper.odd.OddLeague;
+import com.nathanthomp.oddscraper.odd.OddList;
 import com.nathanthomp.oddscraper.odd.OddMarket;
 import com.nathanthomp.oddscraper.scraper.OddsApiScraper;
 
+/*
+ * NEW STEPS:
+ * 1. Get active leagues
+ * 2. for each active leauge, get valid markets
+ * 3. for each market in active leauge, get odds
+ * 3.1 if get odds fails, log warning and continue
+ */
+
+/**
+ * Lambda handler for scraping sports betting odds from sportsbooks and writing
+ * odds to a database.
+ */
 public class OddscraperRequestHandler implements RequestHandler<OddscraperRequest, OddscraperResponse> {
+
+    private static OddLeague[] activeLeagues = new OddLeague[] { OddLeague.NHL };
 
     @Override
     public OddscraperResponse handleRequest(OddscraperRequest request, Context context) {
         /*
-         * Get league and market values from request.
+         * Try to scrape odds from active leagues into a list
          */
-        OddLeague league = OddscraperRequest.getOddLeague(request.league());
-        OddMarket market = OddscraperRequest.getOddMarket(request.market());
-        /*
-         * Get odds for league and market.
-         */
-        Set<OddEvent> events = new HashSet<OddEvent>();
+        OddList oddList = new OddList();
         try {
-            // OddsApiScraper oddsApiScraper = new OddsApiScraper(league);
-            // events = oddsApiScraper.scrapeOdds(market);
-            // events = oddsApiScraper.scrapeOdds(OddMarket.SPREAD);
-            // events = oddsApiScraper.scrapeOdds(OddMarket.TOTAL);
-            // oddList.addOdds(events);
-            /*
-             * Add more scrapers here
-             */
+            for (OddLeague league : activeLeagues) {
+                OddsApiScraper oddsApiScraper = new OddsApiScraper(league);
 
-            /*
-             * Testing
-             */
-            events = OddsApiScraper.scrapeOddsFromFile(OddscraperRequestHandler.path,
-                    league, market);
+                OddMarket[] markets = OddMarket.getMarkets(league);
 
+                for (OddMarket market : markets) {
+                    try {
+                        OddsApiScraper.scrapeOdds(market, oddList);
+                    } catch (Exception e) {
+                        // TODO: Log error Could not scrape odds for leauge and market
+                    }
+
+                }
+
+                if (markets.length == 0) {
+                    // TODO: Log warning if markets is empty
+                }
+            }
         } catch (Exception e) {
-            return new OddscraperResponse(league, market, "failure", e.getMessage(), events);
+            // TODO: Log fatal
+            return new OddscraperResponse("failure", e.getMessage());
         }
 
-        return new OddscraperResponse(league, market, "success", events);
+        /*
+         * Try to write list of odds to database
+         */
+        try {
+            writeToDatabase(oddList);
+        } catch (Exception e) {
+            // TODO: Log error
+            return new OddscraperResponse("failure", e.getMessage());
+        }
+
+        return new OddscraperResponse("success", "");
+    }
+
+    private void writeToDatabase(OddList oddList) {
+        /*
+         * For each event in oddList, add to events table referencing league
+         * For each outcome in oddList, add to outcomes table referencing event
+         * For each odd in oddList, add to odds table referencing outcome
+         */
     }
 
     /*

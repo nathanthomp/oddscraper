@@ -1,7 +1,5 @@
-package com.nathanthomp.oddscraper;
+package com.nathanthomp.oddscraper.handler;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
@@ -28,14 +26,6 @@ public record OddscraperRequest(String league, String market) {
             Map.entry("spread", OddMarket.SPREAD),
             Map.entry("total", OddMarket.TOTAL),
             Map.entry("outright", OddMarket.OUTRIGHT));
-
-    private final static Map<OddLeague, List<OddMarket>> validMarketsForLeague = Map.ofEntries(
-            Map.entry(OddLeague.MASTERS, Arrays.asList(
-                    OddMarket.OUTRIGHT)),
-            Map.entry(OddLeague.CBB, Arrays.asList(
-                    OddMarket.MONEYLINE,
-                    OddMarket.SPREAD,
-                    OddMarket.TOTAL)));
 
     public static OddLeague getOddLeague(String league) {
         return validLeagues.get(league.toLowerCase());
