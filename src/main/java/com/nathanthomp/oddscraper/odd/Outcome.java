@@ -59,19 +59,14 @@ public class Outcome extends Entity {
     }
 
     @Override
-    public Map<String, AttributeValue> toItem() {
-        Map<String, AttributeValue> item = super.itemKeysAndType();
-
+    public Map<String, AttributeValue> getAttributes() {
         Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
         attributeMap.put("market", AttributeValue.builder().n(this.market.ordinal() + "").build());
         attributeMap.put("result", AttributeValue.builder().s(this.result).build());
         attributeMap.put("points", AttributeValue.builder().n(this.points + "").build());
         attributeMap.put("prop", AttributeValue.builder().s(this.prop).build());
         attributeMap.put("player", AttributeValue.builder().s(this.player).build());
-
-        item.put("ATTRIBUTES", AttributeValue.builder().m(attributeMap).build());
-
-        return item;
+        return attributeMap;
     }
 
     @Override

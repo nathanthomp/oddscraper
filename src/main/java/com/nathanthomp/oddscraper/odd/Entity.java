@@ -12,13 +12,14 @@ public abstract class Entity {
 
     protected abstract String getType();
 
-    public abstract Map<String, AttributeValue> toItem();
+    protected abstract Map<String, AttributeValue> getAttributes();
 
-    protected Map<String, AttributeValue> itemKeysAndType() {
-        Map<String, AttributeValue> keysAndTypeMap = new HashMap<String, AttributeValue>();
-        keysAndTypeMap.put("PK", AttributeValue.builder().s(this.getPartitionKey()).build());
-        keysAndTypeMap.put("SK", AttributeValue.builder().s(this.getSortKey()).build());
-        keysAndTypeMap.put("TYPE", AttributeValue.builder().s(this.getType()).build());
-        return keysAndTypeMap;
+    public Map<String, AttributeValue> toItem() {
+        Map<String, AttributeValue> item = new HashMap<String, AttributeValue>();
+        item.put("PK", AttributeValue.builder().s(this.getPartitionKey()).build());
+        item.put("SK", AttributeValue.builder().s(this.getSortKey()).build());
+        item.put("TYPE", AttributeValue.builder().s(this.getType()).build());
+        item.put("ATTRIBUTES", AttributeValue.builder().m(this.getAttributes()).build());
+        return item;
     }
 }

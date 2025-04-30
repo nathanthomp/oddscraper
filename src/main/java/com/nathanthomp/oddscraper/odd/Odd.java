@@ -42,16 +42,11 @@ public class Odd extends Entity {
     }
 
     @Override
-    public Map<String, AttributeValue> toItem() {
-        Map<String, AttributeValue> item = super.itemKeysAndType();
-
+    public Map<String, AttributeValue> getAttributes() {
         Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
         attributeMap.put("sportsbook", AttributeValue.builder().s(this.sportsbook).build());
         attributeMap.put("price", AttributeValue.builder().n(this.price + "").build());
-
-        item.put("ATTRIBUTES", AttributeValue.builder().m(attributeMap).build());
-
-        return item;
+        return attributeMap;
     }
 
     @Override

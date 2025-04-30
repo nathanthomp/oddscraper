@@ -43,17 +43,12 @@ public class Event extends Entity {
     }
 
     @Override
-    public Map<String, AttributeValue> toItem() {
-        Map<String, AttributeValue> item = super.itemKeysAndType();
-
+    protected Map<String, AttributeValue> getAttributes() {
         Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
         attributeMap.put("participant1", AttributeValue.builder().s(this.participant1).build());
         attributeMap.put("participant2", AttributeValue.builder().s(this.participant2).build());
         attributeMap.put("startDateTime", AttributeValue.builder().s(this.startDateTime).build());
-
-        item.put("ATTRIBUTES", AttributeValue.builder().m(attributeMap).build());
-
-        return item;
+        return attributeMap;
     }
 
     @Override
