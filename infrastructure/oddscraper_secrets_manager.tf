@@ -1,3 +1,3 @@
-resource "aws_secretsmanager_secret" "oddscraper_secrets_manager" {
+resource "aws_secretsmanager_secret" "oddscraper-secrets-manager" {
   name = "OddscraperSecretsManager"
 }
