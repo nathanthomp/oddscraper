@@ -1,5 +1,10 @@
 package com.nathanthomp.oddscraper.odd;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
+
 /*
  * Examples:
  * 
@@ -22,22 +27,35 @@ public class Odd extends Entity {
     }
 
     @Override
-    public String getPartitionKey() {
+    protected String getPartitionKey() {
         return this.outcome.getSortKey();
     }
 
     @Override
-    public String getSortKey() {
+    protected String getSortKey() {
         return "ODD#" + this.price + "#" + this.hashCode();
     }
 
     @Override
-    public String getType() {
+    protected String getType() {
         return "ODD";
     }
 
     @Override
+    public Map<String, AttributeValue> toItem() {
+        Map<String, AttributeValue> item = super.itemKeysAndType();
+
+        Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
+        attributeMap.put("sportsbook", AttributeValue.builder().s(this.sportsbook).build());
+        attributeMap.put("price", AttributeValue.builder().n(this.price + "").build());
+
+        item.put("ATTRIBUTES", AttributeValue.builder().m(attributeMap).build());
+
+        return item;
+    }
+
+    @Override
     public int hashCode() {
-        return this.price * this.sportsbook.hashCode();
+        return this.outcome.hashCode() * this.price * this.sportsbook.hashCode();
     }
 }

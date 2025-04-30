@@ -1,20 +1,24 @@
 package com.nathanthomp.oddscraper.odd;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
+
 public abstract class Entity {
-    public abstract String getPartitionKey();
+    protected abstract String getPartitionKey();
 
-    public abstract String getSortKey();
+    protected abstract String getSortKey();
 
-    public abstract String getType();
+    protected abstract String getType();
 
-    // abstract Map<String, String> getAttributes();
+    public abstract Map<String, AttributeValue> toItem();
 
-    // abstract void toItem();
-
-    // public Map<String, String> getKeys() {
-    // return Map.ofEntries(
-    // Map.entry("PK", this.getPk()),
-    // Map.entry("SK", this.getSk()));
-    // }
-
+    protected Map<String, AttributeValue> itemKeysAndType() {
+        Map<String, AttributeValue> keysAndTypeMap = new HashMap<String, AttributeValue>();
+        keysAndTypeMap.put("PK", AttributeValue.builder().s(this.getPartitionKey()).build());
+        keysAndTypeMap.put("SK", AttributeValue.builder().s(this.getSortKey()).build());
+        keysAndTypeMap.put("TYPE", AttributeValue.builder().s(this.getType()).build());
+        return keysAndTypeMap;
+    }
 }

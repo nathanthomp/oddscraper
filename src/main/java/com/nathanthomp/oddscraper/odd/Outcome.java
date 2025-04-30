@@ -1,5 +1,10 @@
 package com.nathanthomp.oddscraper.odd;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
+
 /*
  * Examples:
  * 
@@ -39,18 +44,34 @@ public class Outcome extends Entity {
     }
 
     @Override
-    public String getPartitionKey() {
+    protected String getPartitionKey() {
         return this.event.getSortKey();
     }
 
     @Override
-    public String getSortKey() {
+    protected String getSortKey() {
         return "OUTCOME#" + this.market.ordinal() + "#" + this.hashCode();
     }
 
     @Override
-    public String getType() {
+    protected String getType() {
         return "OUTCOME";
+    }
+
+    @Override
+    public Map<String, AttributeValue> toItem() {
+        Map<String, AttributeValue> item = super.itemKeysAndType();
+
+        Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
+        attributeMap.put("market", AttributeValue.builder().n(this.market.ordinal() + "").build());
+        attributeMap.put("result", AttributeValue.builder().s(this.result).build());
+        attributeMap.put("points", AttributeValue.builder().n(this.points + "").build());
+        attributeMap.put("prop", AttributeValue.builder().s(this.prop).build());
+        attributeMap.put("player", AttributeValue.builder().s(this.player).build());
+
+        item.put("ATTRIBUTES", AttributeValue.builder().m(attributeMap).build());
+
+        return item;
     }
 
     @Override
