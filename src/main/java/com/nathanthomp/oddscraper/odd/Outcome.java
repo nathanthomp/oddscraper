@@ -1,5 +1,6 @@
 package com.nathanthomp.oddscraper.odd;
 
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,6 +31,9 @@ public class Outcome extends Entity {
         this.event = event;
         this.market = market;
         this.result = result;
+        this.points = 0;
+        this.prop = "";
+        this.player = "";
     }
 
     public Outcome(Event event, Market market, String result, double points) {
@@ -44,13 +48,13 @@ public class Outcome extends Entity {
     }
 
     @Override
-    protected String getPartitionKey() {
+    public String getPartitionKey() {
         return this.event.getSortKey();
     }
 
     @Override
-    protected String getSortKey() {
-        return "OUTCOME#" + this.market.ordinal() + "#" + this.hashCode();
+    public String getSortKey() {
+        return "OUTCOME#" + this.market.getValue() + "#" + this.hashCode();
     }
 
     @Override
@@ -61,7 +65,7 @@ public class Outcome extends Entity {
     @Override
     public Map<String, AttributeValue> getAttributes() {
         Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
-        attributeMap.put("market", AttributeValue.builder().n(this.market.ordinal() + "").build());
+        attributeMap.put("market", AttributeValue.builder().n(this.market.getValue() + "").build());
         attributeMap.put("result", AttributeValue.builder().s(this.result).build());
         attributeMap.put("points", AttributeValue.builder().n(this.points + "").build());
         attributeMap.put("prop", AttributeValue.builder().s(this.prop).build());
@@ -70,14 +74,23 @@ public class Outcome extends Entity {
     }
 
     @Override
+    protected String getTimeToLive() {
+        /*
+         * This needs to be when the event is over
+         */
+        long offset = 86400; // 24 hours
+        return Long.toString(Instant.now().getEpochSecond() + offset);
+    }
+
+    @Override
     public int hashCode() {
         if (Market.hasPlayer(this.market)) {
-            return this.event.hashCode() * this.market.ordinal() * this.result.hashCode() * (int) this.points
+            return this.event.hashCode() * this.market.getValue() * this.result.hashCode() * (int) this.points
                     * this.prop.hashCode() * this.player.hashCode();
         } else if (Market.hasPoints(this.market)) {
-            return this.event.hashCode() * this.market.ordinal() * this.result.hashCode() * (int) this.points;
+            return this.event.hashCode() * this.market.getValue() * this.result.hashCode() * (int) this.points;
         } else {
-            return this.event.hashCode() * this.market.ordinal() * this.result.hashCode();
+            return this.event.hashCode() * this.market.getValue() * this.result.hashCode();
         }
     }
 

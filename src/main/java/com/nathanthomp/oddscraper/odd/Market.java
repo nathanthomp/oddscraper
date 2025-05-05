@@ -4,11 +4,21 @@ package com.nathanthomp.oddscraper.odd;
  * All Market definitions go here.
  */
 public enum Market {
-    MONEYLINE,
-    SPREAD,
-    TOTAL,
-    OUTRIGHT,
-    PLAYER_PROP;
+    MONEYLINE(1),
+    SPREAD(2),
+    TOTAL(3),
+    OUTRIGHT(4),
+    PLAYER_PROP(5);
+
+    private final int value;
+
+    private Market(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return this.value;
+    }
 
     public static Market[] getMarkets(League league) {
         Market[] markets;

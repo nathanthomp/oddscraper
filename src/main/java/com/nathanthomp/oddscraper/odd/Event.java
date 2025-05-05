@@ -1,5 +1,6 @@
 package com.nathanthomp.oddscraper.odd;
 
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,12 +29,12 @@ public class Event extends Entity {
     }
 
     @Override
-    protected String getPartitionKey() {
-        return "LEAGUE#" + this.league.ordinal();
+    public String getPartitionKey() {
+        return "LEAGUE#" + this.league.getValue();
     }
 
     @Override
-    protected String getSortKey() {
+    public String getSortKey() {
         return "EVENT#" + this.startDateTime + "#" + this.hashCode();
     }
 
@@ -43,7 +44,7 @@ public class Event extends Entity {
     }
 
     @Override
-    protected Map<String, AttributeValue> getAttributes() {
+    public Map<String, AttributeValue> getAttributes() {
         Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
         attributeMap.put("participant1", AttributeValue.builder().s(this.participant1).build());
         attributeMap.put("participant2", AttributeValue.builder().s(this.participant2).build());
@@ -52,12 +53,21 @@ public class Event extends Entity {
     }
 
     @Override
+    protected String getTimeToLive() {
+        /*
+         * This needs to be when the event is over
+         */
+        long offset = 86400; // 24 hours
+        return Long.toString(Instant.now().getEpochSecond() + offset);
+    }
+
+    @Override
     public int hashCode() {
         /*
          * Event has to have the same league, same participants, and the same start
          * time.
          */
-        return this.league.ordinal() * this.participant1.hashCode() * this.participant2.hashCode()
+        return this.league.getValue() * this.participant1.hashCode() * this.participant2.hashCode()
                 * this.startDateTime.hashCode();
     }
 }

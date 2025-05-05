@@ -1,5 +1,6 @@
 package com.nathanthomp.oddscraper.odd;
 
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,6 +21,8 @@ public class Odd extends Entity {
     private String sportsbook;
     private int price;
 
+    private String link;
+
     public Odd(Outcome outcome, String sportsbook, int price) {
         this.outcome = outcome;
         this.sportsbook = sportsbook;
@@ -27,13 +30,13 @@ public class Odd extends Entity {
     }
 
     @Override
-    protected String getPartitionKey() {
+    public String getPartitionKey() {
         return this.outcome.getSortKey();
     }
 
     @Override
-    protected String getSortKey() {
-        return "ODD#" + this.price + "#" + this.hashCode();
+    public String getSortKey() {
+        return "ODD#" + this.sportsbook.toUpperCase();
     }
 
     @Override
@@ -47,6 +50,15 @@ public class Odd extends Entity {
         attributeMap.put("sportsbook", AttributeValue.builder().s(this.sportsbook).build());
         attributeMap.put("price", AttributeValue.builder().n(this.price + "").build());
         return attributeMap;
+    }
+
+    @Override
+    protected String getTimeToLive() {
+        /*
+         * This needs to be when the event is over
+         */
+        long offset = 86400; // 24 hours
+        return Long.toString(Instant.now().getEpochSecond() + offset);
     }
 
     @Override

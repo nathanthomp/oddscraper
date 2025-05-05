@@ -4,11 +4,21 @@ package com.nathanthomp.oddscraper.odd;
  * All League definitions go here.
  */
 public enum League {
-    UCL,
-    NHL,
-    NCAAB,
-    MASTERS,
-    NFL;
+    UCL(1),
+    NHL(2),
+    NCAAB(3),
+    MASTERS(4),
+    NFL(5);
+
+    private final int value;
+
+    private League(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return this.value;
+    }
 
     public static String convertToOddsApiLeauge(League league) {
         String oddsApiLeague;
