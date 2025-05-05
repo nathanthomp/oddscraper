@@ -33,11 +33,21 @@ Oddscraper is a cloud native application that scrapes real time sportsbetting od
 
 ## Entity Chart
 
-| Entity  | PK                               | SK                               | TYPE    | ATTRIBUTES           |
-| :------ | :------------------------------- | :------------------------------- | :------ | :------------------- |
-| Event   | LEAGUE#\<LeagueHash>             | EVENT#STARTDATETIME#\<EventHash> | EVENT   | `{ "key": "value" }` |
-| Outcome | EVENT#STARTDATETIME#\<EventHash> | OUTCOME#MARKET#\<OutcomeHash>    | OUTCOME | `{ "key": "value" }` |
-| Odd     | OUTCOME#MARKET#\<OutcomeHash>    | ODD#PRICE#\<OddHash>             | ODD     | `{ "key": "value" }` |
+### OddsTable Version 2
+
+| Entity  | PK                               | SK                               | TYPE    | ATTRIBUTES           | TTL         |
+| :------ | :------------------------------- | :------------------------------- | :------ | :------------------- | ----------- |
+| Event   | EVENT#STARTDATETIME#\<EventHash> | LEAGUE#\<LeagueValue>            | EVENT   | `{ "key": "value" }` | ENDDATETIME |
+| Outcome | OUTCOME#MARKET#\<OutcomeHash>    | EVENT#STARTDATETIME#\<EventHash> | OUTCOME | `{ "key": "value" }` | ENDDATETIME |
+| Odd     | ODD#SPORTSBOOK                   | OUTCOME#MARKET#\<OutcomeHash>    | ODD     | `{ "key": "value" }` | ENDDATETIME |
+
+### OddsTable Version 1
+
+| Entity  | PK                               | SK                               | TYPE    | ATTRIBUTES           | TTL         |
+| :------ | :------------------------------- | :------------------------------- | :------ | :------------------- | ----------- |
+| Event   | LEAGUE#\<LeagueValue>            | EVENT#STARTDATETIME#\<EventHash> | EVENT   | `{ "key": "value" }` | ENDDATETIME |
+| Outcome | EVENT#STARTDATETIME#\<EventHash> | OUTCOME#MARKET#\<OutcomeHash>    | OUTCOME | `{ "key": "value" }` | ENDDATETIME |
+| Odd     | OUTCOME#MARKET#\<OutcomeHash>    | ODD#SPORTSBOOK                   | ODD     | `{ "key": "value" }` | ENDDATETIME |
 
 ## Entity Access Patterns
 

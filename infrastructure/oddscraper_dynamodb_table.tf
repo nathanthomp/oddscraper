@@ -1,8 +1,8 @@
 resource "aws_dynamodb_table" "oddscraper-dynamodb-table" {
-    name = "Odds"
-    billing_mode = "PAY_PER_REQUEST"
-    read_capacity = 5
-    write_capacity = 5
+    name = "OddsTable"
+    billing_mode = "PROVISIONED"
+    read_capacity = 1
+    write_capacity = 1
 
     stream_enabled = true
     stream_view_type = "NEW_AND_OLD_IMAGES"
@@ -20,13 +20,22 @@ resource "aws_dynamodb_table" "oddscraper-dynamodb-table" {
       type = "S"
     }
 
-    attribute {
-      name = "TYPE"
-      type = "S"
-    }
+    # Only need to define key attributes
 
-    attribute {
-      name = "ATTRIBUTES"
-      type = "M"
+    # Not defining since it is NoSQL
+    # attribute {
+    #   name = "TYPE"
+    #   type = "S"
+    # }
+
+    # Not defining since it is NoSQL
+    # attribute {
+    #   name = "ATTRIBUTES"
+    #   type = "S"
+    # }
+
+    ttl {
+      attribute_name = "TTL"
+      enabled = true
     }
 }

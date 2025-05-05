@@ -21,7 +21,7 @@ public class ScraperSecretsManagerClient {
     }
 
     private final String SECRET_NAME = "OddscraperSecretsManager";
-    private final Region SECRET_REGION = Region.of("us-east-2");
+    private final Region SECRET_REGION = Region.US_EAST_2;
 
     private Map<String, String> secrets;
 
@@ -46,6 +46,12 @@ public class ScraperSecretsManagerClient {
         }
 
     }
+
+    /*
+     * TODO:
+     * getSecret(String key)
+     * getSecrets()
+     */
 
     public Map<String, String> getOddsApiSecrets() {
         Map<String, String> result = new HashMap<String, String>();
