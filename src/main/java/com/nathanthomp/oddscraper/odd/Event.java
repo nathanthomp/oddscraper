@@ -15,7 +15,7 @@ import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
  * LEAGUE#1, EVENT#DD/MM/YYYY@HH:MM:SS#3, EVENT, ["CIN", "CLE"], DD/MM/YYYY@HH:MM:SS
  * LEAGUE#2, EVENT#DD/MM/YYYY@HH:MM:SS#4, EVENT, ["BUF", "PHI"], DD/MM/YYYY@HH:MM:SS
  */
-public class Event extends Entity {
+public class Event {
     private League league;
     private String participant1;
     private String participant2;
@@ -28,38 +28,46 @@ public class Event extends Entity {
         this.startDateTime = startDateTime;
     }
 
-    @Override
-    public String getPartitionKey() {
-        return "LEAGUE#" + this.league.getValue();
+    public League getLeague() {
+        return this.league;
     }
 
-    @Override
-    public String getSortKey() {
-        return "EVENT#" + this.startDateTime + "#" + this.hashCode();
-    }
+    // @Override
+    // public String getPartitionKey() {
+    // return "LEAGUE#" + this.league.getValue();
+    // }
 
-    @Override
-    protected String getType() {
-        return "EVENT";
-    }
+    // @Override
+    // public String getSortKey() {
+    // return "EVENT#" + this.startDateTime + "#" + this.hashCode();
+    // }
 
-    @Override
-    public Map<String, AttributeValue> getAttributes() {
-        Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
-        attributeMap.put("participant1", AttributeValue.builder().s(this.participant1).build());
-        attributeMap.put("participant2", AttributeValue.builder().s(this.participant2).build());
-        attributeMap.put("startDateTime", AttributeValue.builder().s(this.startDateTime).build());
-        return attributeMap;
-    }
+    // @Override
+    // protected String getType() {
+    // return "EVENT";
+    // }
 
-    @Override
-    protected String getTimeToLive() {
-        /*
-         * This needs to be when the event is over
-         */
-        long offset = 86400; // 24 hours
-        return Long.toString(Instant.now().getEpochSecond() + offset);
-    }
+    // @Override
+    // public Map<String, AttributeValue> getAttributes() {
+    // Map<String, AttributeValue> attributeMap = new HashMap<String,
+    // AttributeValue>();
+    // attributeMap.put("participant1",
+    // AttributeValue.builder().s(this.participant1).build());
+    // attributeMap.put("participant2",
+    // AttributeValue.builder().s(this.participant2).build());
+    // attributeMap.put("startDateTime",
+    // AttributeValue.builder().s(this.startDateTime).build());
+    // return attributeMap;
+    // }
+
+    // @Override
+    // protected String getTimeToLive() {
+    // /*
+    // * This needs to be when the event is over
+    // */
+    // long offset = 86400; // 24 hours
+    // return Long.toString(Instant.now().getEpochSecond() + offset);
+    // }
 
     @Override
     public int hashCode() {

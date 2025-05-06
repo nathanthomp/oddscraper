@@ -31,24 +31,52 @@ public class Odd extends Entity {
 
     @Override
     public String getPartitionKey() {
-        return this.outcome.getSortKey();
+        Event event = this.outcome.getEvent();
+        League league = event.getLeague();
+        Market market = this.outcome.getMarket();
+        return "LEAGUE#" + league.getValue() + "#EVENT#" + event.hashCode() + "#OUTCOME#" + market.getValue();
     }
 
     @Override
     public String getSortKey() {
-        return "ODD#" + this.sportsbook.toUpperCase();
+        Market market = this.outcome.getMarket();
+        if (Market.hasPlayer(market)) {
+            return "ODD#" + this.outcome.getResult() + "#" + this.outcome.getPoints() + "#" + this.outcome.getProp()
+                    + "#" + this.outcome.getPlayer() + "#" + this.price + "#" + this.sportsbook.toUpperCase();
+        } else if (Market.hasPoints(market)) {
+            return "ODD#" + this.outcome.getResult() + "#" + this.outcome.getPoints() + "#" + this.price + "#"
+                    + this.sportsbook.toUpperCase();
+        } else {
+            return "ODD#" + this.outcome.getResult() + "#" + this.price + "#" + this.sportsbook.toUpperCase();
+        }
     }
 
-    @Override
-    protected String getType() {
-        return "ODD";
-    }
+    // @Override
+    // protected String getType() {
+    // return "ODD";
+    // }
 
     @Override
     public Map<String, AttributeValue> getAttributes() {
+        Event event = this.outcome.getEvent();
+        Market market = this.outcome.getMarket();
+
         Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
-        attributeMap.put("sportsbook", AttributeValue.builder().s(this.sportsbook).build());
-        attributeMap.put("price", AttributeValue.builder().n(this.price + "").build());
+        attributeMap.put("SPORTSBOOK", AttributeValue.builder().s(this.sportsbook).build());
+        attributeMap.put("PRICE", AttributeValue.builder().n(this.price + "").build());
+        attributeMap.put("LEAGUE", AttributeValue.builder().s("LEAGUE#" + event.getLeague().getValue()).build());
+        attributeMap.put("EVENT", AttributeValue.builder().s("EVENT#" + event.hashCode()).build());
+        attributeMap.put("MARKET", AttributeValue.builder().s(market.getValue() + "").build());
+        attributeMap.put("RESULT", AttributeValue.builder().s(this.outcome.getResult()).build());
+
+        if (Market.hasPlayer(market)) {
+            attributeMap.put("POINTS", AttributeValue.builder().n(this.outcome.getPoints() + "").build());
+            attributeMap.put("PROP", AttributeValue.builder().s(this.outcome.getProp()).build());
+            attributeMap.put("PLAYER", AttributeValue.builder().s(this.outcome.getPlayer()).build());
+        } else if (Market.hasPoints(market)) {
+            attributeMap.put("POINTS", AttributeValue.builder().n(this.outcome.getPoints() + "").build());
+        }
+
         return attributeMap;
     }
 

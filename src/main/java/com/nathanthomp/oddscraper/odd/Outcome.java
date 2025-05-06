@@ -13,7 +13,7 @@ import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
  * EVENT#DD/MM/YYYY@HH:MM:SS#1, OUTCOME#MONEYLINE#2,   OUTCOME, MONEYLINE,   CLE,   NULL, NULL,          NULL
  * EVENT#DD/MM/YYYY@HH:MM:SS#2, OUTCOME#PLAYER_PROP#3, OUTCOME, PLAYER_PROP, Over,  200,  Passing Yards, Joe Burrow
  */
-public class Outcome extends Entity {
+public class Outcome {
     /*
      * Required
      */
@@ -47,40 +47,67 @@ public class Outcome extends Entity {
         this.player = player;
     }
 
-    @Override
-    public String getPartitionKey() {
-        return this.event.getSortKey();
+    public Event getEvent() {
+        return this.event;
     }
 
-    @Override
-    public String getSortKey() {
-        return "OUTCOME#" + this.market.getValue() + "#" + this.hashCode();
+    public Market getMarket() {
+        return this.market;
     }
 
-    @Override
-    protected String getType() {
-        return "OUTCOME";
+    public String getResult() {
+        return this.result;
     }
 
-    @Override
-    public Map<String, AttributeValue> getAttributes() {
-        Map<String, AttributeValue> attributeMap = new HashMap<String, AttributeValue>();
-        attributeMap.put("market", AttributeValue.builder().n(this.market.getValue() + "").build());
-        attributeMap.put("result", AttributeValue.builder().s(this.result).build());
-        attributeMap.put("points", AttributeValue.builder().n(this.points + "").build());
-        attributeMap.put("prop", AttributeValue.builder().s(this.prop).build());
-        attributeMap.put("player", AttributeValue.builder().s(this.player).build());
-        return attributeMap;
+    public double getPoints() {
+        return this.points;
     }
 
-    @Override
-    protected String getTimeToLive() {
-        /*
-         * This needs to be when the event is over
-         */
-        long offset = 86400; // 24 hours
-        return Long.toString(Instant.now().getEpochSecond() + offset);
+    public String getProp() {
+        return this.prop;
     }
+
+    public String getPlayer() {
+        return this.player;
+    }
+
+    // @Override
+    // public String getPartitionKey() {
+    // return this.event.getSortKey();
+    // }
+
+    // @Override
+    // public String getSortKey() {
+    // return "OUTCOME#" + this.market.getValue() + "#" + this.hashCode();
+    // }
+
+    // @Override
+    // protected String getType() {
+    // return "OUTCOME";
+    // }
+
+    // @Override
+    // public Map<String, AttributeValue> getAttributes() {
+    // Map<String, AttributeValue> attributeMap = new HashMap<String,
+    // AttributeValue>();
+    // attributeMap.put("market", AttributeValue.builder().n(this.market.getValue()
+    // + "").build());
+    // attributeMap.put("result", AttributeValue.builder().s(this.result).build());
+    // attributeMap.put("points", AttributeValue.builder().n(this.points +
+    // "").build());
+    // attributeMap.put("prop", AttributeValue.builder().s(this.prop).build());
+    // attributeMap.put("player", AttributeValue.builder().s(this.player).build());
+    // return attributeMap;
+    // }
+
+    // @Override
+    // protected String getTimeToLive() {
+    // /*
+    // * This needs to be when the event is over
+    // */
+    // long offset = 86400; // 24 hours
+    // return Long.toString(Instant.now().getEpochSecond() + offset);
+    // }
 
     @Override
     public int hashCode() {

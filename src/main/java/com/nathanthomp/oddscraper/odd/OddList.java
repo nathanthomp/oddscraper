@@ -62,10 +62,16 @@ public class OddList {
         return this.oddsMap.values();
     }
 
-    public Collection<Entity> getEntites() {
+    // public Collection<Entity> getEntites() {
+    // Collection<Entity> entities = new LinkedList<Entity>();
+    // entities.addAll(eventsMap.values());
+    // entities.addAll(outcomesMap.values());
+    // entities.addAll(oddsMap.values());
+    // return entities;
+    // }
+
+    public Collection<Entity> getOddEntites() {
         Collection<Entity> entities = new LinkedList<Entity>();
-        entities.addAll(eventsMap.values());
-        entities.addAll(outcomesMap.values());
         entities.addAll(oddsMap.values());
         return entities;
     }
