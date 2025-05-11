@@ -33,6 +33,14 @@ Oddscraper is a cloud native application that scrapes real time sportsbetting od
 
 ## Entity Chart
 
+### OddsTable Version 5
+
+| Entity     | PK                                                       | SK                                                           |
+| :--------- | :------------------------------------------------------- | :----------------------------------------------------------- |
+| Odd        | LEAGUE#`<LEAGUEID>`#EVENT#`<EVENTID>`#OUTCOME#`<MARKET>` | ODD#`<RESULT>`#`<SPORTSBOOK>`                                |
+| Point Odd  | LEAGUE#`<LEAGUEID>`#EVENT#`<EVENTID>`#OUTCOME#`<MARKET>` | ODD#`<RESULT>`#`<POINTS>`#`<SPORTSBOOK>`                     |
+| Player Odd | LEAGUE#`<LEAGUEID>`#EVENT#`<EVENTID>`#OUTCOME#`<MARKET>` | ODD#`<RESULT>`#`<POINTS>`#`<PROP>`#`<PLAYER>`#`<SPORTSBOOK>` |
+
 ### OddsTable Version 4
 
 | Entity     | PK                                                       | SK                                                                     |

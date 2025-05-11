@@ -22,6 +22,12 @@ import com.nathanthomp.oddscraper.scraper.OddsApiScraper;
  * 3.1 if get odds fails, log warning and continue
  */
 
+/*
+ * LOGGING & MONITORING:
+ * AWS CLOUDWATCH - prefered for metrics and logs
+ * AWS X-RAY - prefered for debugging
+ */
+
 /**
  * Lambda handler for scraping sports betting odds from sportsbooks and writing
  * odds to a database.
@@ -76,8 +82,55 @@ public class OddscraperRequestHandler implements RequestHandler<OddscraperReques
             oddList.addOdd(odd5);
             oddList.addOdd(odd6);
 
+            /*
+             * over 1.5
+             * under 1.5
+             * over 2.5
+             * under 2.5
+             * 
+             */
+            Outcome outcome3 = new Outcome(event, Market.TOTAL, "over", 1.5);
+            oddList.addOutcome(outcome3);
+
+            Odd odd7 = new Odd(outcome3, "sportsbook1", 110);
+            Odd odd8 = new Odd(outcome3, "sportsbook2", 120);
+            Odd odd9 = new Odd(outcome3, "sportsbook3", 130);
+            oddList.addOdd(odd7);
+            oddList.addOdd(odd8);
+            oddList.addOdd(odd9);
+
+            Outcome outcome4 = new Outcome(event, Market.TOTAL, "under", 1.5);
+            oddList.addOutcome(outcome4);
+
+            Odd odd10 = new Odd(outcome4, "sportsbook1", 110);
+            Odd odd11 = new Odd(outcome4, "sportsbook2", 120);
+            Odd odd12 = new Odd(outcome4, "sportsbook3", 130);
+            oddList.addOdd(odd10);
+            oddList.addOdd(odd11);
+            oddList.addOdd(odd12);
+
+            Outcome outcome5 = new Outcome(event, Market.TOTAL, "over", 2.5);
+            oddList.addOutcome(outcome5);
+
+            Odd odd13 = new Odd(outcome5, "sportsbook1", 110);
+            Odd odd14 = new Odd(outcome5, "sportsbook2", 120);
+            Odd odd15 = new Odd(outcome5, "sportsbook3", 130);
+            oddList.addOdd(odd13);
+            oddList.addOdd(odd14);
+            oddList.addOdd(odd15);
+
+            Outcome outcome6 = new Outcome(event, Market.TOTAL, "under", 2.5);
+            oddList.addOutcome(outcome6);
+
+            Odd odd16 = new Odd(outcome6, "sportsbook1", 110);
+            Odd odd17 = new Odd(outcome6, "sportsbook2", 120);
+            Odd odd18 = new Odd(outcome6, "sportsbook3", 130);
+            oddList.addOdd(odd16);
+            oddList.addOdd(odd17);
+            oddList.addOdd(odd18);
+
             try {
-                writeToDatabase(oddList.getEntites());
+                writeToDatabase(oddList.getOddEntites());
             } catch (Exception e) {
                 // Log database error
             }
