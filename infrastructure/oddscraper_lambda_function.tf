@@ -1,15 +1,17 @@
-resource "aws_lambda_function" "oddscraper_lambda_function" {
+resource "aws_lambda_function" "oddscraper-lambda-function" {
   function_name = "OddscraperLambdaFunction"
-  role = aws_iam_role.oddscraper_lambda_function_role.arn
+  role = aws_iam_role.oddscraper-lambda-function-role.arn
 
   runtime = "java21"
   handler = "com.nathanthomp.oddscraper.OddscraperRequestHandler::handleRequest"
   filename = "../target/oddscraper-1.0.0-SNAPSHOT.jar" # TODO: Dynamically get version
 
   timeout = 60
+
+  # Pass environment variables for DynamoDB database
 }
 
-resource "aws_iam_role" "oddscraper_lambda_function_role" {
+resource "aws_iam_role" "oddscraper-lambda-function-role" {
   name = "OddscraperLambdaFunctionRole"
   assume_role_policy = jsonencode({
     Version = "2012-10-17",
@@ -25,8 +27,28 @@ resource "aws_iam_role" "oddscraper_lambda_function_role" {
   })
 }
 
-resource "aws_iam_policy" "secrets_manager_access_policy" {
-  name = "SecretsManagerAccessPolicy"
+resource "aws_iam_policy" "oddscraper-lambda-function-dynamodb-policy" {
+  name = "OddscraperLambdaFunctionDynamoDbPolicy"
+
+  policy = jsonencode({
+    Version = "2012-10-17",
+    Statement = [
+      {
+        Action   = ["dynamodb:PutItem"], # TODO
+        Effect   = "Allow",
+        Resource = aws_dynamodb_table.oddscraper-dynamodb-table.arn # TODO
+      }
+    ]
+  })
+}
+
+resource "aws_iam_role_policy_attachment" "oddscraper-lambda-function-dynamodb-policy-attachment" {
+  role       = aws_iam_role.oddscraper-lambda-function-role.name
+  policy_arn = aws_iam_policy.oddscraper-lambda-function-dynamodb-policy.arn
+}
+
+resource "aws_iam_policy" "oddscraper-lambda-function-secrets-manager-policy" {
+  name = "OddscraperLambdaFunctionSecretsManagerPolicy"
 
   policy = jsonencode({
     Version = "2012-10-17",
@@ -34,13 +56,13 @@ resource "aws_iam_policy" "secrets_manager_access_policy" {
       {
         Action   = ["secretsmanager:GetSecretValue"],
         Effect   = "Allow",
-        Resource = aws_secretsmanager_secret.oddscraper_secrets_manager.arn,
+        Resource = aws_secretsmanager_secret.oddscraper-secrets-manager.arn
       }
     ]
   })
 }
 
-resource "aws_iam_role_policy_attachment" "attach_secrets_manager_access_policy" {
-  role       = aws_iam_role.oddscraper_lambda_function_role.name
-  policy_arn = aws_iam_policy.secrets_manager_access_policy.arn
+resource "aws_iam_role_policy_attachment" "oddscraper-lambda-function-secrets-manager-policy-attachment" {
+  role       = aws_iam_role.oddscraper-lambda-function-role.name
+  policy_arn = aws_iam_policy.oddscraper-lambda-function-secrets-manager-policy.arn
 }
