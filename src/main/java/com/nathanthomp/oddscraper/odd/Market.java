@@ -47,26 +47,10 @@ public enum Market {
     }
 
     public static boolean hasPlayer(Market market) {
-        boolean hasPlayer;
-        switch (market) {
-            case MONEYLINE:
-                hasPlayer = false;
-                break;
-            case SPREAD:
-                hasPlayer = true;
-                break;
-            case TOTAL:
-                hasPlayer = true;
-                break;
-            case OUTRIGHT:
-                hasPlayer = false;
-                break;
-            default:
-                // This cannot be accessed
-                hasPlayer = false;
-                break;
+        if (market == Market.PLAYER_PROP) {
+            return true;
         }
-        return hasPlayer;
+        return false;
     }
 
     public static boolean hasPoints(Market market) {

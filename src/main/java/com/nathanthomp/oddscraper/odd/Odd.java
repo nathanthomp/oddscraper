@@ -39,15 +39,15 @@ public class Odd extends Entity {
 
     @Override
     public String getSortKey() {
+        String sortKey = "ODD#" + this.outcome.getResult() + "#";
         Market market = this.outcome.getMarket();
         if (Market.hasPlayer(market)) {
-            return "ODD#" + this.outcome.getResult() + "#" + this.outcome.getPoints() + "#" + this.outcome.getProp()
-                    + "#" + this.outcome.getPlayer() + "#" + this.price + "#" + this.sportsbook.toUpperCase();
+            return sortKey + this.outcome.getPoints() + "#" + this.outcome.getProp() + "#" + this.outcome.getPlayer()
+                    + "#" + this.sportsbook.toUpperCase();
         } else if (Market.hasPoints(market)) {
-            return "ODD#" + this.outcome.getResult() + "#" + this.outcome.getPoints() + "#" + this.price + "#"
-                    + this.sportsbook.toUpperCase();
+            return sortKey + this.outcome.getPoints() + "#" + this.sportsbook.toUpperCase();
         } else {
-            return "ODD#" + this.outcome.getResult() + "#" + this.price + "#" + this.sportsbook.toUpperCase();
+            return sortKey + this.sportsbook.toUpperCase();
         }
     }
 
@@ -66,7 +66,7 @@ public class Odd extends Entity {
         attributeMap.put("PRICE", AttributeValue.builder().n(this.price + "").build());
         attributeMap.put("LEAGUE", AttributeValue.builder().s("LEAGUE#" + event.getLeague().getValue()).build());
         attributeMap.put("EVENT", AttributeValue.builder().s("EVENT#" + event.hashCode()).build());
-        attributeMap.put("MARKET", AttributeValue.builder().s(market.getValue() + "").build());
+        attributeMap.put("MARKET", AttributeValue.builder().n(market.getValue() + "").build());
         attributeMap.put("RESULT", AttributeValue.builder().s(this.outcome.getResult()).build());
 
         if (Market.hasPlayer(market)) {
